@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -45,7 +46,7 @@ body {
 }
 
 .base_layer {
-    transform: translateZ(-300px);  
+    transform: translateZ(-300px) scale(2);
 }
 
 #group-1 .base_layer {
