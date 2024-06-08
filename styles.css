@@ -50,9 +50,13 @@ body {
 }
 
 #group-1 .base_layer {
-    background-color: crimson;
+    background-color: darkslategray;
 }
 
 #group-2 .mid_layer {
-    background-color: yellowgreen;
+    background-color: forestgreen;
+}
+
+#intro {
+    z-index: 0;
 }
