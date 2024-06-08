@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 
 body {
@@ -15,4 +13,24 @@ body {
 .parallax_wrapper {
     height: 100vh;
     overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 300px;
+
+    
+}
+
+.intro_screen {
+    height: 100vh;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outro_screen {
+    height: 100vh;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
