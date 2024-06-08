@@ -34,3 +34,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.parallax_group {
+    position: relative;
+    height: 100vh;
+    /* makes sure that the perspective layers will still have depth */
+    transform-style: preserve-3d;  
+    
+   
+}
+
+.parallax_layer {
+    position: absolute;
+    inset: 0;
+    align-items: center;
+}
