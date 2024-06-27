@@ -1,62 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-    
-}
 
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4em;
-    color: whitesmoke;
 }
 
-.parallax_wrapper {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 300px;
+h1 {
+  color: blueviolet;
+  text-align: center;
 }
 
-.intro_screen {
-    height: 100vh;
-    background-color: tomato;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.outro_screen {
-    height: 100vh;
-    background-color: darkgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.parallax_group {
-    position: relative;
-    height: 100vh;
-    transform-style: preserve-3d;  /* makes sure that the perspective layers will still have depth */
-}
-
-.parallax_group .parallax_layer {
-    position: absolute;
-    inset: 0;
-    align-items: center;
-}
-
-.base_layer {
-    transform: translateZ(-300px) scale(2);
-}
-
-#group-1 .base_layer {
-    background-color: darkslategray;
-}
-
-#group-2 .mid_layer {
-    background-color: forestgreen;
-}
-
-#intro {
-    z-index: 0;
+#ooo{
+  color:yellowgreen;
 }
