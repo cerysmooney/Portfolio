@@ -1,6 +1,135 @@
-p {
-    color: blue;
-    font-size: xx-small;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
+body{
+overflow: hidden; 
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3f5f8;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    /* background-color: red; */
+}
+
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b{
+    font-size: 70px;
+    color: #7f00ff;
+}
+
+.navItems{
+    display: flex;
+
+}
+
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navItems li:hover a,
+.links a:hover{
+    color: #7f00ff;
+}
+
+.links {
+    display: flex;
+}
+.links a {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.links a:last-child {
+    margin-right: 0;
+}
+.links svg {
+    width: 24px;
+    height: 24px;
+    stroke: #3d535f; /* Default color */
+    transition: stroke 0.3s ease;
+}
+.links a:hover svg {
+    stroke: #7f00ff; /* Color on hover */
+}
+a svg {
+    display: block;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+.cols{
+    width: 50%;
+}
+
+.topline{
+    display: block;
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #3d535f;
+}
+
+.topline::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 45px;
+    bottom: 10px;
+    background-color: #7f00ff;
+}
+
+h1{
+    display: block;
+    font-size: 7em;
+    font-weight: 900;
+    color: #3d535f;
+}
+
+.multiText{
+    color: #7f00ff;
+    text-transform: capitalize;
+}
