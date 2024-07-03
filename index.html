@@ -9,7 +9,7 @@
 <body>
 <div class="container">
     <nav>
-        <div class="logo"> folio<b>.</b></div>
+        <div class="logo">folio<b>.</b></div>
         <ul class="navItems">
             <li><a href="#">home</a></li>
             <li><a href="#">about</a></li>
@@ -31,20 +31,48 @@
             </a>
             <a href="#"><i class="fab fa-insta"></i></a>
         </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
     
     <div class="wrapper">
         <div class="cols cols0">
             <span class="topline">Hello</span>
-            <h1> I'm <span class="multiText"> Cerys </span></h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum, molestias.</p>
+            <h1> I'm a... <span class="multiText">  </span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea recusandae necessitatibus voluptatum nesciunt, ex quas ar</p>
             <div class="btns">
-                <button>Download My CV</button>
+                <button> My CV</button>
                 <button> Contact Me</button>
             </div>
         </div>
-        <div class="cols cols1"></div>
+        <div class="cols cols1">
+            <div class="imgbox">
+                <img src="/Imgs/abstract-colorful-watercolor-brush-stroke-design.png" id="splash">
+                <img src="/Imgs/Placeholder_PFP.gif" id="">
+            </div>
+        </div>
     </div>
 </div>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typingEffect = new Typed(".multiText", {
+        strings : ["Developer", "Creator", "Designer"],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay : 1500
+    })
+
+    const hamburger = document.querySelector('.hamburger');
+    const navItems = document.querySelector('.navItems');
+    hamburger.addEventListener('click', () => {
+        navItems.classList.toggle('open');
+    });
+</script>
 </body>
 </html>
+
