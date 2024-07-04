@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +5,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-
-
 .container {
     width: 100%;
     min-height: 100vh;
     background-color: #f3f5f8;
 }
-
 
 nav {
     display: flex;
@@ -112,7 +107,6 @@ a svg {
     transition: 0.3s;
 }
 
-
 .wrapper {
     display: flex;
     width: 100%;
@@ -123,7 +117,6 @@ a svg {
     overflow: hidden;
     position: relative;
 }
-
 
 .wrapper::before {
     position: absolute;
@@ -163,7 +156,6 @@ a svg {
     }
 }
 
-
 .cols {
     width: 50%;
 }
@@ -172,7 +164,6 @@ a svg {
     width: 60%;
     z-index: 5;
 }
-
 
 .topline {
     display: block;
@@ -210,7 +201,6 @@ p {
     color: #3d535f;
 }
 
-
 .btns {
     width: 100%;
     position: relative;
@@ -236,7 +226,6 @@ button {
 button:hover {
     background-color: #7f00ff;
 }
-
 
 .imgbox {
     position: relative;
@@ -266,8 +255,6 @@ button:hover {
         width: 155%;
     }
 }
-
-
 
 @media (max-width: 992px) {
     .hamburger {
@@ -378,16 +365,28 @@ button:hover {
         line-height: normal;
     }
 
+    .logo {
+        font-size: 30px; /* Adjusted from 40px */
+    }
+
+    b {
+        font-size: 50px; /* Adjusted from 70px */
+    }
+
+    .wrapper {
+        padding: 0 5%; /* Adjusted padding */
+    }
+
     h1 {
-        font-size: 2.5em;
+        font-size: 2.5em; /* Adjusted from 7em */
     }
 
     .topline {
-        font-size: 25px;
+        font-size: 25px; /* Adjusted from 35px */
     }
 
     p {
-        font-size: 1em;
+        font-size: 1em; /* Adjusted font size */
     }
 
     .btns {
@@ -396,7 +395,15 @@ button:hover {
     }
 
     button {
-        margin: 20px 0;
+        margin: 20px 0; /* Adjusted margin */
+        font-size: 20px; /* Adjusted font size */
+        padding: 6px 10px; /* Adjusted padding */
+    }
+
+    .imgbox {
+        position: relative;
+        height: 200px; /* Adjusted height */
+        overflow: hidden;
     }
 
     .imgbox img {
@@ -405,13 +412,7 @@ button:hover {
         right: 0;
     }
 
-    .imgbox {
-        position: relative;
-        height: 200px; 
-        overflow: hidden;
-    }
-
     .imgbox #splash {
-        width: 200%; 
+        width: 200%; /* Adjusted animation width */
     }
 }
