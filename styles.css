@@ -1,13 +1,15 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
     background-color: lightslategrey;
-
 }
+
 
 nav {
     padding: 1rem;
@@ -17,13 +19,17 @@ nav {
     align-items: center;
 }
 
+
 .hamburger-menu {
     height: 50px;
     width: 50px;
     position: relative;
     cursor: pointer;
     padding: 1rem;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
 }
+
+
 
 .ham-bar {
     width: 70%;
@@ -34,7 +40,7 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: transform .6s, opacity .8s, top .6s;
+    transition: transform .6s, opacity .8s, top .6s, background-color .3s ease; /* Added transition for background color */
 }
 
 .bar-top {
@@ -48,6 +54,7 @@ nav {
 .hamburger-menu.active .bar-top {
     transform: translate(-50%, -50%) rotate(-315deg);
     top: 50%;
+    background-color: #f1f1f1; 
 }
 
 .hamburger-menu.active .bar-mid {
@@ -57,20 +64,57 @@ nav {
 .hamburger-menu.active .bar-bottom {
     transform: translate(-50%, -50%) rotate(-225deg);
     top: 50%;
+    background-color: #f1f1f1;
 }
 
+.hamburger-menu:hover .ham-bar {
+    background-color: rgb(55, 103, 54); 
+}
+
+
+
 .off-screen-menu {
-    position: fixed;
-    top: 0;
-    right: -75%;
     background-color: #333;
     height: 100vh;
-    width: 75%;
-    transition: right .5s;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
 }
 
 .off-screen-menu.active {
     right: 0;
+}
+
+.off-screen-menu ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.off-screen-menu li {
+    margin: 20px 0;
+}
+
+.off-screen-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    transition: color .3s ease;
+}
+
+.off-screen-menu a:hover {
+    color: rgb(55, 103, 54);
 }
 
 /* Responsive adjustments */
@@ -88,5 +132,9 @@ nav {
     
     .ham-bar {
         height: 3px;
+    }
+
+    .off-screen-menu a {
+        font-size: 45px;
     }
 }
