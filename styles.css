@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: lightslategrey;
+    background-color: #333;
 }
 
 
@@ -135,7 +135,7 @@ nav {
     color: rgb(55, 103, 54);
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 600px) {
     .off-screen-menu {
         width: 60%;
@@ -160,16 +160,53 @@ nav {
 .scroll-reveal {
     padding: 2rem;
     transition: color 0.4s ease;
+    position: relative;
 }
 
 .scroll-reveal.scrolled {
     color: rgb(168, 215, 167);
 }
 
+.rounded-shape-bg {
+    opacity: 70%;
+    height: 290px;
+    width: 79%;
+    border-radius: 30px 30px 2px 2px;
+    background: #5d8662;
+    position: absolute;
+    top: 100px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1;
+}
 
 .section-title {
-    font-size: 80px;
+    position: relative;
+    z-index: 2;
+    padding-top: 250px;
+    font-size: 150px;
+    text-align: center;
 }
+
+@media (max-width: 480px) {
+    .section-title::before {
+        content: "CERYS M";
+        font-size: 60px;
+        align-items: center;
+        align-content: center;
+        text-wrap: pretty;
+      
+    }
+
+    .section-title {
+        font-size: 0; 
+    }
+
+    .rounded-shape-bg {
+        display: none;
+    }
+}
+
 
 .section-2-title {
     font-size: 80px;
