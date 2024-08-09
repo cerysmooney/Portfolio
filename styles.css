@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #333;
+    background-color: #222;
 }
 
 
@@ -25,9 +25,9 @@ nav {
     align-items: flex-start;
 }
 
-.portfolio-nav-text {
+/* .portfolio-nav-text {
     color: pink;
-}
+} */
 
 .left-nav-title {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -192,7 +192,7 @@ nav {
 
 @media (max-width: 480px) {
     .section-title::before {
-        content: "CERYS";
+        content: "I'm Cerys...";
         font-size: 100px;
         align-items: center;
         align-content: center;
