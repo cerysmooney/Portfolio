@@ -190,8 +190,8 @@ nav {
 
 @media (max-width: 480px) {
     .section-title::before {
-        content: "CERYS M";
-        font-size: 60px;
+        content: "CERYS";
+        font-size: 100px;
         align-items: center;
         align-content: center;
         text-wrap: pretty;
@@ -203,9 +203,19 @@ nav {
     }
 
     .rounded-shape-bg {
-        display: none;
-    }
+        opacity: 70%;
+    height: 130px;
+    width: 79%;
+    border-radius: 30px 30px 2px 2px;
+    background: #5d8662;
+    position: absolute;
+    top: 220px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1;
 }
+    }
+
 
 
 .section-2-title {
