@@ -2,12 +2,19 @@ document.addEventListener('DOMContentLoaded', function() {
     const hamburgerMenu = document.querySelector('.hamburger-menu');
     const offScreenMenu = document.querySelector('.off-screen-menu');
     const scrollSections = document.querySelectorAll('.scroll-reveal');
+    
+    // modal variables
+    const modal = document.getElementById("modal");
+    const modalImg = document.getElementById("modal-img");
+    const closeBtn = document.getElementsByClassName("close")[0];
 
+    // ham menu toggle
     hamburgerMenu.addEventListener('click', function() {
         hamburgerMenu.classList.toggle('active');
         offScreenMenu.classList.toggle('active');
     });
 
+    // Scroll reveal effect
     window.addEventListener('scroll', function() {
         scrollSections.forEach(section => {
             const sectionTop = section.getBoundingClientRect().top;
@@ -20,6 +27,28 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    // open modal when an image is clicked
+    document.querySelectorAll('#gallery a').forEach(item => {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+            const imgSrc = this.getAttribute('data-src');
+            modal.style.display = "block";
+            modalImg.src = imgSrc;
+        });
+    });
+
+    // close the modal
+    closeBtn.onclick = function() {
+        modal.style.display = "none";
+    };
+
+    // close the modal when clicking outside of the image
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
 });
 
 // const track = document.getElementById("image-track");

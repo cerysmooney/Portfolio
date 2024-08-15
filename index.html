@@ -35,14 +35,17 @@
 
 <section class="gallery-section">
     <div id="gallery">
-        <img src="Imgs/buzzy.jpg"> 
-        <img src="Imgs/kaiffa.jpg" alt="an eagle" style="--f:.12;--r:5px">
-        <img src="Imgs/cham.jpg">
-        <img src="Imgs/washing.JPG" style="--f:.08;--r:20px">
-        
+        <a href="#modal" data-src="Imgs/buzzy.jpg"><img src="Imgs/buzzy.jpg" alt="Buzzy"></a>
+        <a href="#modal" data-src="Imgs/kaiffa.jpg"><img src="Imgs/kaiffa.jpg" alt="An eagle" style="--f:.12;--r:5px"></a>
+        <a href="#modal" data-src="Imgs/cham.jpg"><img src="Imgs/cham.jpg" alt="Cham"></a>
+        <a href="#modal" data-src="Imgs/washing.JPG"><img src="Imgs/washing.JPG" alt="Washing" style="--f:.08;--r:20px"></a>
     </div>
 </section>
 
+<div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modal-img">
+</div>
 <section>
     <h2>Section 3</h2>
     <p>More content here to make the page scrollable...</p>
