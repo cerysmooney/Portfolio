@@ -94,7 +94,7 @@ nav {
 }
 
 .hamburger-menu:hover .ham-bar {
-    background-color: rgb(55, 103, 54);
+    background-color: rgb(168, 215, 167);
 }
 
 .off-screen-menu {
@@ -268,13 +268,31 @@ nav {
         height: 100%;
         overflow: auto;
         background-color: rgba(0, 0, 0, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center; 
     }
     
     .modal-content {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
+        width: 70%; 
+        max-width: 500px; 
+        aspect-ratio: 1 / 1; 
+        border-radius: 15px; 
+        object-fit: cover; 
+        }
+    
+    .modal-text {
+        color: #fff;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .modal-open img {
+        cursor: default; 
+        --_t: none; 
+        clip-path: none;
     }
     
     .close {
@@ -290,7 +308,7 @@ nav {
     
     .close:hover,
     .close:focus {
-        color: #bbb;
+        color:  rgb(168, 215, 167);
         text-decoration: none;
         cursor: pointer;
     }
