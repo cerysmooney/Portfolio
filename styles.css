@@ -312,3 +312,287 @@ nav {
         text-decoration: none;
         cursor: pointer;
     }
+
+
+    .about-section {
+        background-color: #444;
+        padding: 4rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .about-text {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .about-text h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: rgb(168, 215, 167);
+    }
+    
+    .about-text p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: #666;
+    }
+    
+    .about-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+
+    @media (max-width: 768px) {
+        .about-container {
+            flex-direction: column;
+        }
+    
+        .about-image {
+            margin-top: 1rem;
+        }
+    }
+
+
+    .contact {
+        display: flex;
+        flex-direction: column; 
+        position: relative;
+        /* background: linear-gradient(to bottom right, rgba(0,0,0, 0.9), rgba(36,11,54, 0.8), rgba(195,20,50,0.9)), url("https://i.imgur.com/3vacZxN.jpg") center no-repeat; */
+        background-size: cover;
+      }
+      
+      .contact-header {
+        font-family: "Montserrat", sans-serif;
+        margin: 10rem 10rem 3rem 10rem;
+        text-align: center;
+      }
+      
+      #co-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: rgb(168, 215, 167);
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      
+      #co-text {
+        font-size: 3rem;
+        color: white;
+        padding-bottom: 2rem;
+      }
+      
+      .contact-content {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        line-height: 2;
+        height: auto;
+        width: 70%;
+        background-color: rgba(0,0,0,0.6);
+        margin-bottom: 10rem;
+      }
+      
+      .contact-form {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 5rem;
+      }
+      
+      #form-title {
+        color: #fff;
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        line-height: 1px;
+        margin-left: 4rem;
+        margin-bottom: 3rem;
+      }
+      
+      fieldset {
+        border: none;
+      }
+      
+      .form-field {
+        outline: none;
+        width: 200%;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+          margin-bottom: .9rem;
+      }
+      
+      #name, #email, #subject, #message {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #fff;
+        outline: none;
+        background: transparent;
+        border: none;
+        letter-spacing: 2px;
+        font-size: .6rem;
+        line-height: 2rem;
+        padding-bottom: 0.7rem;
+      }
+      
+      textarea, #message {
+        width: 100%;
+        color: #fff;
+        overflow: visible;
+      }
+      
+      #form-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        border: none;
+        color: white;
+        font-size: 0.6rem;
+        letter-spacing: 2.5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 200%;
+        height: 60px;
+        background-color: rgb(168, 215, 167);
+        cursor: pointer;
+        transition: all .3s ease;
+      }
+      
+      #form-btn:hover {
+        opacity: 0.9;
+        transform: translateY(-2.5%);
+        box-shadow: 0 0 15px 0 #000;
+      }
+      
+      .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 5rem;
+        background-color: rgba(0,0,0,0.3);
+      }
+      
+      .contact-info h3 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        color: rgb(168, 215, 167);
+      }
+      
+      .contact-info a {
+        font-family: "Montserrat", sans-serif;
+        text-decoration: none;
+        color: #666;
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+        line-height: 3rem;
+        margin-bottom: 5rem;
+        transition: all .3s ease;
+      }
+      
+      .contact-info a:hover {
+        transform: translateY(-2.5%);
+        color: rgb(168, 215, 167);
+      }
+      
+      .contact-info .fab {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding-left: 2rem;
+        color: #666;
+        cursor: pointer;
+        transition: all .3s ease;
+      }
+      
+      .fab:hover{
+        transform: scale(1.2);
+        color: rgb(168, 215, 167);
+      }
+      
+      
+      @media screen and (max-width: 960px) {
+        .contact-content {
+          display: flex;
+          flex-direction: column;
+        }
+        
+        .form-field {
+          width: 100%;
+        }
+        
+        #form-btn {
+          width: 100%;
+        }
+        
+        #form-title {
+          margin: 3rem auto;
+        }
+        
+        .contact-header{
+          margin: 5rem 5rem 3rem 5rem;
+        }
+        
+        #co-title {
+          font-size: 1rem;
+        }
+        
+        #co-text {
+          font-size: 2.5rem;
+        }
+        
+        .contact-form {
+          padding: 2.5rem;
+        }
+      }
+      
+      @media screen and (min-width: 960px) {
+        .form-field {
+          width: 125%;
+        }
+        
+        #form-title {
+          margin: 3rem auto;
+        }
+        
+        #form-btn {
+          width: 125%;
+        }
+        
+        .contact-header{
+          margin: 7rem 7rem 3rem 7rem;
+        }
+        
+        .contact-info {
+          padding: 5rem;
+        }
+        
+        #co-title {
+          font-size: 1rem;
+        }
+        
+        #co-text {
+          font-size: 2.5rem;
+        }
+        
+        .contact-form {
+          padding: 2.5rem;
+        }
+      }
+      
+      @media screen and (min-width: 1460px) {
+        .form-field {
+          width: 200%;
+        }
+        
+        #form-btn {
+          width: 200%;
+        }
+      }
