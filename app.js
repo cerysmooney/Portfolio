@@ -3,17 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const offScreenMenu = document.querySelector('.off-screen-menu');
     const scrollSections = document.querySelectorAll('.scroll-reveal');
     
-   
     const modal = document.getElementById('modal');
     const modalImg = document.getElementById('modal-img');
     const modalText = document.getElementById('modal-text'); 
     const closeBtn = document.querySelector('.close'); 
   
+    modal.style.display = 'none';
+    
     hamburgerMenu.addEventListener('click', function() {
         hamburgerMenu.classList.toggle('active');
         offScreenMenu.classList.toggle('active');
     });
-
 
     window.addEventListener('scroll', function() {
         scrollSections.forEach(section => {
@@ -41,12 +41,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-
     closeBtn.addEventListener('click', function() {
         modal.style.display = 'none';
         document.body.classList.remove('modal-open'); 
     });
-
 
     window.addEventListener('click', function(event) {
         if (event.target === modal) {
