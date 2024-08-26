@@ -192,6 +192,7 @@ nav {
     padding-top: 250px;
     font-size: 150px;
     text-align: center;
+    text-transform: capitalize;
 }
 
 @media (max-width: 480px) {
@@ -259,7 +260,7 @@ nav {
     
     @media (min-width: 1200px) {
       img {
-          width: 400px;
+          width: 300px;
       }
   }
 
@@ -296,6 +297,9 @@ nav {
         line-height: 1.5;
     }
 
+    body.modal-open {
+      overflow: hidden;
+  }
     .modal-open img {
         cursor: default; 
         --_t: none; 
@@ -347,6 +351,8 @@ nav {
         font-size: 2.5rem;
         margin-bottom: 1rem;
         color: rgb(168, 215, 167);
+        text-align: left;
+        text-transform: uppercase;
     }
     
     .about-text p {
@@ -359,6 +365,7 @@ nav {
         max-width: 100%;
         height: auto;
         border-radius: 10px;
+        cursor: auto;
     }
     
 
@@ -398,6 +405,7 @@ nav {
         color: rgb(168, 215, 167);
         text-transform: uppercase;
         margin-bottom: 20px;
+        
       }
       
       #co-text {
