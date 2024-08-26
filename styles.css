@@ -257,6 +257,13 @@ nav {
         --_t: translateX(calc(-1 * var(--_f))) rotateY(calc(-1 * var(--_a)));
     }
     
+    @media (min-width: 1200px) {
+      img {
+          width: 400px;
+      }
+  }
+
+
     .modal {
         display: none;
         position: fixed;
@@ -365,6 +372,11 @@ nav {
         }
     }
 
+    @media (min-width: 1200px) {
+      .about-image img {
+          max-width: 120%; 
+      }
+  }
 
     .contact {
         display: flex;
@@ -518,6 +530,21 @@ nav {
       }
       
       
+      @media (min-width: 1200px) {
+        .contact-content {
+            width: 80%; 
+        }
+    
+        .contact-form, .contact-info {
+            padding: 6rem;
+        }
+    
+        #co-text {
+            font-size: 3.5rem; 
+        }
+    }
+
+  
       @media screen and (max-width: 960px) {
         .contact-content {
           display: flex;
