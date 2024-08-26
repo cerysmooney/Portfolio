@@ -417,72 +417,7 @@ nav {
         margin-bottom: 10rem;
       }
       
-      .contact-form {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding: 5rem;
-      }
-      
-      #form-title {
-        color: #fff;
-        font-size: 0.6rem;
-        text-transform: uppercase;
-        letter-spacing: 1.2px;
-        line-height: 1px;
-        margin-left: 4rem;
-        margin-bottom: 3rem;
-      }
-      
-      fieldset {
-        border: none;
-      }
-      
-      .form-field {
-        outline: none;
-        width: 200%;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.09);
-          margin-bottom: .9rem;
-      }
-      
-      #name, #email, #subject, #message {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #fff;
-        outline: none;
-        background: transparent;
-        border: none;
-        letter-spacing: 2px;
-        font-size: .6rem;
-        line-height: 2rem;
-        padding-bottom: 0.7rem;
-      }
-      
-      textarea, #message {
-        width: 100%;
-        color: #fff;
-        overflow: visible;
-      }
-      
-      #form-btn {
-        display: flex;
-        justify-content: center;
-        margin-top: 3rem;
-        border: none;
-        color: white;
-        font-size: 0.6rem;
-        letter-spacing: 2.5px;
-        font-weight: 700;
-        text-transform: uppercase;
-        width: 200%;
-        height: 60px;
-        background-color: rgb(168, 215, 167);
-        cursor: pointer;
-        transition: all .3s ease;
-      }
-      
-      #form-btn:hover {
-        opacity: 0.9;
-        transform: translateY(-2.5%);
-        box-shadow: 0 0 15px 0 #000;
-      }
+    
       
       .contact-info {
         display: flex;
