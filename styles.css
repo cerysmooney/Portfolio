@@ -264,6 +264,29 @@ nav {
       }
   }
 
+  .modal-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.modal-gallery img {
+    width: 70%;
+    max-width: 500px;
+    aspect-ratio: 1 / 1;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .modal-gallery img {
+      width: 80%; 
+      max-width: 200px; 
+  }
+}
 
     .modal {
         display: none;
@@ -397,6 +420,7 @@ nav {
         font-family: "Montserrat", sans-serif;
         margin: 10rem 10rem 3rem 10rem;
         text-align: center;
+        align-items: center;
       }
       
       #co-title {
@@ -405,6 +429,8 @@ nav {
         color: rgb(168, 215, 167);
         text-transform: uppercase;
         margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
         
       }
       
@@ -412,6 +438,8 @@ nav {
         font-size: 3rem;
         color: white;
         padding-bottom: 2rem;
+        align-items: center;
+        text-align: center;
       }
       
       .contact-content {

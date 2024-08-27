@@ -53,3 +53,69 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('modal');
+    const modalGallery = document.querySelector('.modal-gallery');
+    const modalText = document.getElementById('modal-text');
+    const closeBtn = document.querySelector('.close');
+
+    const galleries = {
+        'buzzy-gallery': [
+            'Imgs/washing-1.JPG',
+          'Imgs/washing-1.JPG',
+            'Imgs/washing-1.JPG',
+            'Imgs/washing-1.JPG'
+        ],
+        'kaiffa-gallery': [
+            'Imgs/washing-1.JPG',
+          'Imgs/washing-1.JPG',
+            'Imgs/washing-1.JPG',
+            'Imgs/washing-1.JPG'
+        ],
+        'cham-gallery': [
+            'Imgs/washing-1.JPG',
+            'Imgs/washing-1.JPG',
+            'Imgs/washing-1.JPG',
+            'Imgs/washing-1.JPG'
+        ],
+        'washing-gallery': [
+            'Imgs/washing.JPG',
+            'Imgs/washing-1.JPG',
+            'Imgs/washing-1.JPG',
+            'Imgs/washing-1.JPG'
+        ]
+    };
+
+    document.querySelectorAll('#gallery a').forEach(item => {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+            const galleryKey = this.getAttribute('data-gallery');
+            const text = this.getAttribute('data-text');
+
+            modalGallery.innerHTML = ''; 
+            galleries[galleryKey].forEach(src => {
+                const img = document.createElement('img');
+                img.src = src;
+                modalGallery.appendChild(img);
+            });
+
+            modalText.textContent = text;
+            modal.style.display = 'block';
+            document.body.classList.add('modal-open');
+        });
+    });
+
+    closeBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+        document.body.classList.remove('modal-open');
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+            document.body.classList.remove('modal-open');
+        }
+    });
+});
