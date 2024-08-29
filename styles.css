@@ -266,22 +266,21 @@ nav {
 
   .modal-gallery {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
 }
 
+/* inside image */
 .modal-gallery img {
-    width: 70%;
+  width: calc(33.33% - 20px);
     max-width: 500px;
-    aspect-ratio: 1 / 1;
     border-radius: 15px;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 10px;
 }
 
-
+/* first image */
 .gallery-item {
   position: relative;
   width: 300px;

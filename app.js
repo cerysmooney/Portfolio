@@ -63,10 +63,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const galleries = {
         'buzzy-gallery': [
-            'Imgs/washing-1.JPG',
-          'Imgs/washing-1.JPG',
-            'Imgs/washing-1.JPG',
-            'Imgs/washing-1.JPG'
+            'Imgs/BuzzyStride/login_buzzy.png',
+          'Imgs/BuzzyStride/buzzy_home.png',
+            'Imgs/BuzzyStride/buzzy_ava_routes.png',
+            'Imgs/BuzzyStride/buzzy_busy_route.png',
+            'Imgs/BuzzyStride/buzzy_map.png',
+            'Imgs/BuzzyStride/buzzy_home.png'
         ],
         'kaiffa-gallery': [
             'Imgs/washing-1.JPG',
