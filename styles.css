@@ -322,15 +322,15 @@ nav {
 /* Mobile responsiveness */
 @media (max-width: 1024px) {
   .modal-gallery img {
-      width: calc(50% - 20px);
-      max-width: 300px;
+      width: calc(50% - 10px); 
+      max-width: 400px; 
   }
 }
 
 @media (max-width: 600px) {
   .modal-gallery img {
-      width: 100%; 
-      max-width: 200px; 
+      width: 95%; 
+      max-width: 300px; 
   }
 
   .gallery-item {
@@ -338,11 +338,10 @@ nav {
   }
 
   .overlay-text {
-      font-size: 14px;
-      padding: 5px;
+      font-size: 16px; 
+      padding: 8px;
   }
 }
-
     .modal {
         display: none;
         position: fixed;
