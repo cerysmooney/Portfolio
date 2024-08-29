@@ -271,16 +271,24 @@ nav {
     gap: 10px;
 }
 
-/* inside image */
-.modal-gallery img {
-  width: calc(33.33% - 20px);
-    max-width: 500px;
-    border-radius: 15px;
-    object-fit: contain;
-    margin-bottom: 10px;
+/* Container for the modal gallery */
+.modal-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the images */
+  gap: 10px; /* Adds spacing between the images */
 }
 
-/* first image */
+/* Inside image */
+.modal-gallery img {
+  width: calc(33.33% - 20px); /* 3 images in a row on larger screens */
+  max-width: 500px;
+  border-radius: 15px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* First image with overlay */
 .gallery-item {
   position: relative;
   width: 300px;
@@ -307,15 +315,31 @@ nav {
   width: 100%; 
 }
 
- 
 .gallery-item:hover .overlay-text {
   opacity: 1;
 }
 
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+  .modal-gallery img {
+      width: calc(50% - 20px);
+      max-width: 300px;
+  }
+}
+
 @media (max-width: 600px) {
   .modal-gallery img {
-      width: 80%; 
+      width: 100%; 
       max-width: 200px; 
+  }
+
+  .gallery-item {
+      width: 100%;
+  }
+
+  .overlay-text {
+      font-size: 14px;
+      padding: 5px;
   }
 }
 
