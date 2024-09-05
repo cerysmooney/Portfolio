@@ -64,11 +64,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const galleries = {
         'buzzy-gallery': [
             'Imgs/BuzzyStride/login_buzzy.png',
-          'Imgs/BuzzyStride/buzzy_home.png',
+            'Imgs/BuzzyStride/buzzy_home.png',
             'Imgs/BuzzyStride/buzzy_ava_routes.png',
             'Imgs/BuzzyStride/buzzy_busy_route.png',
             'Imgs/BuzzyStride/buzzy_map.png',
-            'Imgs/BuzzyStride/buzzy_home.png'
+            'Imgs/BuzzyStride/buzzy_built.png',
+            'Imgs/BuzzyStride/8EAC7A.png',
+            'Imgs/BuzzyStride/EE9B01.png',
+            'Imgs/BuzzyStride/EE8434.png',
+            'Imgs/BuzzyStride/da6a00.png',
+            'Imgs/BuzzyStride/597393.png'
         ],
         'kaiffa-gallery': [
             'Imgs/washing-1.JPG',

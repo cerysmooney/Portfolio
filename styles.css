@@ -275,8 +275,8 @@ nav {
 .modal-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Centers the images */
-  gap: 10px; /* Adds spacing between the images */
+  justify-content: center; 
+  gap: 10px;
 }
 
 /* Inside image */
@@ -302,6 +302,32 @@ nav {
   display: block;
 }
 
+.modal-gallery img[src*="8EAC7A.png"],
+.modal-gallery img[src*="EE9B01.png"],
+.modal-gallery img[src*="EE8434.png"],
+.modal-gallery img[src*="da6a00.png"],
+.modal-gallery img[src*="597393.png"] {
+  display: inline-block;
+  width: 150px; 
+  height: 100px; 
+  margin-right: 10px;
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-top: 50px;
+}
+
+
+@media (max-width: 600px) {
+  .modal-gallery img[src*="8EAC7A.png"],
+  .modal-gallery img[src*="EE9B01.png"],
+  .modal-gallery img[src*="EE8434.png"],
+  .modal-gallery img[src*="da6a00.png"],
+  .modal-gallery img[src*="597393.png"] {
+    width: 60px;  
+  }
+}
+
+
 .overlay-text {
   position: absolute;
   top: 50%;
@@ -319,7 +345,7 @@ nav {
   opacity: 1;
 }
 
-/* Mobile responsiveness */
+
 @media (max-width: 1024px) {
   .modal-gallery img {
       width: calc(50% - 10px); 
