@@ -271,7 +271,6 @@ nav {
     gap: 10px;
 }
 
-/* Container for the modal gallery */
 .modal-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -281,7 +280,7 @@ nav {
 
 /* Inside image */
 .modal-gallery img {
-  width: calc(33.33% - 20px); /* 3 images in a row on larger screens */
+  width: calc(33.33% - 20px); 
   max-width: 500px;
   border-radius: 15px;
   object-fit: contain;
@@ -301,6 +300,7 @@ nav {
   object-fit: cover;
   display: block;
 }
+
 
 .modal-gallery img[src*="8EAC7A.png"],
 .modal-gallery img[src*="EE9B01.png"],
