@@ -327,6 +327,64 @@ nav {
   }
 }
 
+.modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+  display: inline-block;
+  object-fit: cover;
+  margin: 50px 10px;
+  width: 100%; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    width: 80%; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    width: 70%; 
+  }
+}
+
+.modal-gallery img[src*="Imgs/Kaiffa/white.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
+  display: inline-block;
+  width: 200px; 
+  height: 150px; 
+  margin-right: 10px;
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-top: 50px;
+}
+
+
+@media (max-width: 600px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
+    width: 100px;
+    height: 50px;
+  }
+}
 
 .overlay-text {
   position: absolute;

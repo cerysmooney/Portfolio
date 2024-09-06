@@ -76,11 +76,17 @@ document.addEventListener('DOMContentLoaded', function() {
             'Imgs/BuzzyStride/597393.png'
         ],
         'kaiffa-gallery': [
-            'Imgs/Kaiffa/Group 54.png',
-            'Imgs/Kaiffa/Frame 58.png',
+            'Imgs/Kaiffa/white.png',
+            'Imgs/Kaiffa/Almost White.png',
+            'Imgs/Kaiffa/egg.png',
+            'Imgs/Kaiffa/Grey Blue.png',
+            'Imgs/Kaiffa/Deep Blue.png',
+            // 'Imgs/Kaiffa/Group 54.png',
             'Imgs/Kaiffa/Group 55.png',
+            'Imgs/Kaiffa/Frame 58.png',
              'Imgs/Kaiffa/Group 49.png',
             'Imgs/Kaiffa/Group 47.png',
+    
 
         ],
         'cham-gallery': [
