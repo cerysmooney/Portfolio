@@ -90,10 +90,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
         ],
         'cham-gallery': [
-            'Imgs/washing-1.JPG',
-            'Imgs/washing-1.JPG',
-            'Imgs/washing-1.JPG',
-            'Imgs/washing-1.JPG'
+            "Imgs/Noise/greysquare.png",
+            "Imgs/Noise/greensquare.png",
+            "Imgs/Noise/purplesquare.png",
+            "Imgs/Noise/offwhitesquare.png",
+            'Imgs/Noise/waveform.JPG',
+            'Imgs/Noise/vls.JPG',
+            'Imgs/Noise/psd.JPG',
+            'Imgs/Noise/example.JPG'
+         
         ],
         'washing-gallery': [
             'Imgs/washing.JPG',

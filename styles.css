@@ -386,6 +386,85 @@ nav {
   }
 }
 
+/* NOISE GALLERY */
+/* CONTENT */
+.modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+.modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+.modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+.modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+  display: inline-block;
+  object-fit: cover;
+  margin: 50px 10px;
+  width: 100%; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+    width: 80%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+    width: 70%; 
+  }
+}
+
+.modal-gallery img[src*="Imgs/Noise/thumbnail1.JPG"],
+.modal-gallery img[src*="Imgs/Noise/thumbnail2.JPG"],
+.modal-gallery img[src*="Imgs/Noise/thumbnail3.JPG"],
+.modal-gallery img[src*="Imgs/Noise/thumbnail4.JPG"] {
+  display: inline-block;
+  width: 200px; 
+  height: 150px; 
+  margin-right: 10px;
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .modal-gallery img[src*="Imgs/Noise/thumbnail1.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/thumbnail2.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/thumbnail3.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/thumbnail4.JPG"] {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+/* COLOUR SCHEME */
+.modal-gallery img[src*="Imgs/Noise/greysquare.png"],
+.modal-gallery img[src*="Imgs/Noise/greensquare.png"],
+.modal-gallery img[src*="Imgs/Noise/purplesquare.png"],
+.modal-gallery img[src*="Imgs/Noise/offwhitesquare.png"] {
+  display: inline-block;
+  width: 200px; 
+  height: 150px; 
+  margin-right: 10px;
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/greensquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/offwhitesquare.png"] {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+
 .overlay-text {
   position: absolute;
   top: 50%;
