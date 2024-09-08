@@ -101,10 +101,15 @@ document.addEventListener('DOMContentLoaded', function() {
          
         ],
         'washing-gallery': [
-            'Imgs/washing.JPG',
-            'Imgs/washing-1.JPG',
-            'Imgs/washing-1.JPG',
-            'Imgs/washing-1.JPG'
+            'Imgs/Washing/purplesquare.png',
+            'Imgs/Washing/dgreensquare.png',
+            'Imgs/Washing/lbrownsquare.png',
+            'Imgs/Washing/lgreen.png',
+            'Imgs/Washing/lgrey.png',
+            'Imgs/Washing/cafe.JPG',
+            'Imgs/Washing/events.JPG',
+            'Imgs/Washing/function.JPG',
+            'Imgs/Washing/contact.JPG',
         ]
     };
 

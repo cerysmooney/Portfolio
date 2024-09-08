@@ -417,10 +417,10 @@ nav {
   }
 }
 
-.modal-gallery img[src*="Imgs/Noise/thumbnail1.JPG"],
-.modal-gallery img[src*="Imgs/Noise/thumbnail2.JPG"],
-.modal-gallery img[src*="Imgs/Noise/thumbnail3.JPG"],
-.modal-gallery img[src*="Imgs/Noise/thumbnail4.JPG"] {
+/* .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+.modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+.modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+.modal-gallery img[src*="Imgs/Noise/example.JPG"] {
   display: inline-block;
   width: 200px; 
   height: 150px; 
@@ -428,13 +428,13 @@ nav {
   border-radius: 5px; 
   object-fit: cover; 
   margin-top: 50px;
-}
+} */
 
 @media (max-width: 600px) {
-  .modal-gallery img[src*="Imgs/Noise/thumbnail1.JPG"],
-  .modal-gallery img[src*="Imgs/Noise/thumbnail2.JPG"],
-  .modal-gallery img[src*="Imgs/Noise/thumbnail3.JPG"],
-  .modal-gallery img[src*="Imgs/Noise/thumbnail4.JPG"] {
+  .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
     width: 100px;
     height: 50px;
   }
@@ -464,6 +464,61 @@ nav {
   }
 }
 
+/* Washing Section */
+.modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+.modal-gallery img[src*="Imgs/Washing/events.JPG"],
+.modal-gallery img[src*="Imgs/Washing/function.JPG"],
+.modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+  display: inline-block;
+  object-fit: cover;
+  margin: 50px 10px;
+  width: 100%; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    width: 70%;
+  }
+}
+
+/* washing colour scheme */
+.modal-gallery img[src*="Imgs/Washing/purplesquare.png"],
+.modal-gallery img[src*="Imgs/Washing/dgreensquare.png"],
+.modal-gallery img[src*="Imgs/Washing/lbrownsquare.png"],
+.modal-gallery img[src*="Imgs/Washing/lgreen.png"],
+.modal-gallery img[src*="Imgs/Washing/lgrey.png"] {
+  display: inline-block;
+  width: 200px; 
+  height: 150px; 
+  margin-right: 10px;
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .modal-gallery img[src*="Imgs/Washing/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/dgreensquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/lbrownsquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/lgreen.png"],
+  .modal-gallery img[src*="Imgs/Washing/lgrey.png"] {
+    width: 100px;
+    height: 50px;
+  }
+}
 
 .overlay-text {
   position: absolute;
@@ -474,7 +529,7 @@ nav {
   text-align: center;
   padding: 10px;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.3s ease;
   width: 100%; 
 }
 
