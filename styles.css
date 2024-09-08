@@ -702,7 +702,8 @@ nav {
       .contact-info {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
+        /* FIX THIS - WAS FLEX-END*/
+        align-items: center;
         justify-content: center;
         padding: 5rem;
         background-color: rgba(0,0,0,0.3);
@@ -737,6 +738,10 @@ nav {
         color: #666;
         cursor: pointer;
         transition: all .3s ease;
+        /* FIX THIS - ADDED THESE */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
       }
       
       .fab:hover{
