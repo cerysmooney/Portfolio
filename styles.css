@@ -301,7 +301,8 @@ nav {
   display: block;
 }
 
-
+/* KAIFFA */
+/* Colour Scheme */
 .modal-gallery img[src*="8EAC7A.png"],
 .modal-gallery img[src*="EE9B01.png"],
 .modal-gallery img[src*="EE8434.png"],
@@ -327,6 +328,7 @@ nav {
   }
 }
 
+/* KAIFFA content */
 .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
 .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
 .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
@@ -399,20 +401,6 @@ nav {
   height: auto;
 }
 
-
-/* .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
-.modal-gallery img[src*="Imgs/Noise/vls.JPG"],
-.modal-gallery img[src*="Imgs/Noise/psd.JPG"],
-.modal-gallery img[src*="Imgs/Noise/example.JPG"] {
-  display: inline-block;
-  width: 200px; 
-  height: 150px; 
-  margin-right: 10px;
-  border-radius: 5px; 
-  object-fit: cover; 
-  margin-top: 50px;
-} */
-
 @media (max-width: 600px) {
   .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
   .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
@@ -448,6 +436,7 @@ nav {
 }
 
 /* Washing Section */
+/* Washing content */
 .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
 .modal-gallery img[src*="Imgs/Washing/events.JPG"],
 .modal-gallery img[src*="Imgs/Washing/function.JPG"],
@@ -477,7 +466,7 @@ nav {
   }
 }
 
-/* washing colour scheme */
+/* Washing colour scheme */
 .modal-gallery img[src*="Imgs/Washing/purplesquare.png"],
 .modal-gallery img[src*="Imgs/Washing/dgreensquare.png"],
 .modal-gallery img[src*="Imgs/Washing/lbrownsquare.png"],
