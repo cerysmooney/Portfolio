@@ -106,10 +106,10 @@ document.addEventListener('DOMContentLoaded', function() {
             'Imgs/Washing/lbrownsquare.png',
             'Imgs/Washing/lgreen.png',
             'Imgs/Washing/lgrey.png',
+            'Imgs/Washing/contact.JPG',
             'Imgs/Washing/cafe.JPG',
             'Imgs/Washing/events.JPG',
             'Imgs/Washing/function.JPG',
-            'Imgs/Washing/contact.JPG',
         ]
     };
 
