@@ -195,27 +195,32 @@ nav {
     text-transform: capitalize;
 }
 
-@media (max-width: 1920px){
-    @media(max-width: 1920px){
-        .section-title{
-            font-size: 200px;
-        } 
+
+@media (min-width: 1920px) {
+    .section-title {
+        font-size: 220px;
+        padding-top: 300px;
+    }
+
+    .rounded-shape-bg {
+        height: 200px;
+        width: 85%;
+        border-radius: 40px 40px 5px 5px;
+        top: 250px;
     }
 }
 
 @media (max-width: 480px) {
-    @media (max-width: 480px) {
-        .section-title::before {
-          content: "Welcome!";
-          text-wrap: stable;
-          text-transform: none;
-          font-size: 85px;
-          position: relative;
-          top: -100px; 
-          display: block;
-          text-align: center; 
-        }
-      }
+    .section-title::before {
+        content: "Welcome!";
+        text-wrap: stable;
+        text-transform: none;
+        font-size: 85px;
+        position: relative;
+        top: -100px; 
+        display: block;
+        text-align: center; 
+    }
 
     .section-title {
         font-size: 0; 
@@ -223,18 +228,18 @@ nav {
 
     .rounded-shape-bg {
         opacity: 70%;
-    height: 130px;
-    width: 79%;
-    border-radius: 30px 30px 2px 2px;
-    background: #5d8662;
-    position: absolute;
-    top: 220px;
-    left: 50%; 
-    transform: translateX(-50%); 
-    z-index: 1;
-    display: none;
-}
+        height: 130px;
+        width: 79%;
+        border-radius: 30px 30px 2px 2px;
+        background: #5d8662;
+        position: absolute;
+        top: 220px;
+        left: 50%; 
+        transform: translateX(-50%); 
+        z-index: 1;
+        display: none;
     }
+}
 
 /*  gallery section */
 .gallery-section {
