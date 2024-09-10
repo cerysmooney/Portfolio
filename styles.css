@@ -195,6 +195,20 @@ nav {
     text-transform: capitalize;
 }
 
+@media (max-width: 1920px) {
+    @media (max-width: 1920px) {
+        .section-title {
+          text-wrap: stable;
+          text-transform: none;
+          font-size: 170px;
+          /* position: relative; */
+          top: 0px; 
+          display: block;
+          text-align: center; 
+        }
+      }
+    }
+
 @media (max-width: 480px) {
     @media (max-width: 480px) {
         .section-title::before {
