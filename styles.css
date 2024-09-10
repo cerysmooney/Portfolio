@@ -707,7 +707,7 @@ nav {
   }
   
   #about-text {
-      font-size: 3rem;
+      font-size: 2rem;
       color: white;
       padding-bottom: 2rem;
       align-items: center;
@@ -730,12 +730,65 @@ nav {
       cursor: auto;
   }
   
+  @media (max-width: 1200px) {
+      .about-header {
+          margin: 8rem 5rem;
+      }
+      #about-title {
+          font-size: 5rem;
+      }
+      #about-text {
+          font-size: 1.8rem;
+      }
+  }
+  
+  @media (max-width: 992px) {
+      .about-header {
+          margin: 7rem 4rem;
+      }
+      #about-title {
+          font-size: 4.5rem;
+      }
+      #about-text {
+          font-size: 1.6rem;
+      }
+  }
+  
   @media (max-width: 768px) {
       .about-header {
           margin: 5rem 2rem;
       }
+      #about-title {
+          font-size: 4rem;
+      }
+      #about-text {
+          font-size: 1.5rem;
+      }
   }
-
+  
+  @media (max-width: 576px) {
+      .about-header {
+          margin: 4rem 1.5rem;
+      }
+      #about-title {
+          font-size: 3rem;
+      }
+      #about-text {
+          font-size: 1.2rem;
+      }
+  }
+  
+  @media (max-width: 420px) {
+      .about-header {
+          margin: 3rem 1rem;
+      }
+      #about-title {
+          font-size: 2.5rem;
+      }
+      #about-text {
+          font-size: 1rem;
+      }
+  }
   .contact {
     display: flex;
     flex-direction: column; 
@@ -752,7 +805,7 @@ nav {
 }
 
 #co-title {
-    font-size: 7rem; 
+    font-size: 3rem; 
     font-weight: 700;
     color: rgb(168, 215, 167);
     text-transform: uppercase;
@@ -761,7 +814,7 @@ nav {
 }
 
 #co-text {
-    font-size: 4rem; 
+    font-size: 2rem; 
     color: white;
     padding-bottom: 3rem; 
     text-align: left;
@@ -819,96 +872,4 @@ nav {
     color: rgb(168, 215, 167);
 }
       
-      @media (min-width: 1200px) {
-        .contact-content {
-            width: 80%; 
-        }
-    
-        .contact-form, .contact-info {
-            padding: 6rem;
-        }
-    
-        #co-text {
-            font-size: 3.5rem; 
-        }
-    }
 
-  
-      @media screen and (max-width: 960px) {
-        .contact-content {
-          display: flex;
-          flex-direction: column;
-        }
-        
-        .form-field {
-          width: 100%;
-        }
-        
-        #form-btn {
-          width: 100%;
-        }
-        
-        #form-title {
-          margin: 3rem auto;
-        }
-        
-        .contact-header{
-          margin: 5rem 5rem 3rem 5rem;
-        }
-        
-        #co-title {
-          font-size: 1rem;
-        }
-        
-        #co-text {
-          font-size: 2.5rem;
-        }
-        
-        .contact-form {
-          padding: 2.5rem;
-        }
-      }
-      
-      @media screen and (min-width: 960px) {
-        .form-field {
-          width: 125%;
-        }
-        
-        #form-title {
-          margin: 3rem auto;
-        }
-        
-        #form-btn {
-          width: 125%;
-        }
-        
-        .contact-header{
-          margin: 7rem 7rem 3rem 7rem;
-        }
-        
-        .contact-info {
-          padding: 5rem;
-        }
-        
-        #co-title {
-          font-size: 1rem;
-        }
-        
-        #co-text {
-          font-size: 2.5rem;
-        }
-        
-        .contact-form {
-          padding: 2.5rem;
-        }
-      }
-      
-      @media screen and (min-width: 1460px) {
-        .form-field {
-          width: 200%;
-        }
-        
-        #form-btn {
-          width: 200%;
-        }
-      }
