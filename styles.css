@@ -317,7 +317,6 @@ nav {
   margin-top: 50px;
 }
 
-
 @media (max-width: 600px) {
   .modal-gallery img[src*="8EAC7A.png"],
   .modal-gallery img[src*="EE9B01.png"],
@@ -351,7 +350,6 @@ nav {
   }
 }
 
-
 @media (max-width: 480px) {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
@@ -376,7 +374,6 @@ nav {
   margin-top: 50px;
 }
 
-
 @media (max-width: 600px) {
   .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
@@ -400,6 +397,7 @@ nav {
   width: 100%; 
   height: auto;
 }
+
 @media (max-width: 768px) {
   .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
   .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
@@ -417,7 +415,6 @@ nav {
     width: 70%;
   }
 }
-
 
 /* COLOUR SCHEME */
 .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
@@ -500,6 +497,317 @@ nav {
   }
 }
 
+@media (min-width: 1024px) {
+  /* Hex code images */
+  .modal-gallery img[src*="8EAC7A.png"],
+  .modal-gallery img[src*="EE9B01.png"],
+  .modal-gallery img[src*="EE8434.png"],
+  .modal-gallery img[src*="da6a00.png"],
+  .modal-gallery img[src*="597393.png"] {
+    width: 200px;
+    height: 150px;
+  }
+
+  /* KAIFFA content */
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    width: 90%; 
+  }
+
+  /* Kaiffa color scheme */
+  .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
+    width: 250px;
+    height: 200px;
+  }
+
+  /* Noise content */
+  .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+    width: 90%;
+  }
+
+  /* Noise color scheme */
+  .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/greensquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/offwhitesquare.png"] {
+    width: 250px;
+    height: 200px;
+  }
+
+  /* Washing content */
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    width: 90%;
+  }
+
+  /* Washing color scheme */
+  .modal-gallery img[src*="Imgs/Washing/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/dgreensquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/lbrownsquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/lgreen.png"],
+  .modal-gallery img[src*="Imgs/Washing/lgrey.png"] {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .modal-gallery img {
+    width: 50px;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-gallery img {
+    width: 40px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 3px;
+  }
+}
+
+/* Hex code images */
+.modal-gallery img[src*="8EAC7A.png"],
+.modal-gallery img[src*="EE9B01.png"],
+.modal-gallery img[src*="EE8434.png"],
+.modal-gallery img[src*="da6a00.png"],
+.modal-gallery img[src*="597393.png"] {
+  display: inline-block;
+  width: 150px; 
+  height: 100px; 
+  margin-right: 10px;
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .modal-gallery img[src*="8EAC7A.png"],
+  .modal-gallery img[src*="EE9B01.png"],
+  .modal-gallery img[src*="EE8434.png"],
+  .modal-gallery img[src*="da6a00.png"],
+  .modal-gallery img[src*="597393.png"] {
+    width: 60px;  
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-gallery img[src*="8EAC7A.png"],
+  .modal-gallery img[src*="EE9B01.png"],
+  .modal-gallery img[src*="EE8434.png"],
+  .modal-gallery img[src*="da6a00.png"],
+  .modal-gallery img[src*="597393.png"] {
+    width: 50px;  
+    height: auto;
+  }
+}
+
+/* KAIFFA content */
+.modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+  display: inline-block;
+  object-fit: cover;
+  margin: 50px 10px;
+  width: 100%; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    width: 80%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    width: 70%; 
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    width: 60%;
+  }
+}
+
+/* KAIFFA color scheme */
+.modal-gallery img[src*="Imgs/Kaiffa/white.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
+  display: inline-block;
+  width: 200px; 
+  height: 150px; 
+  margin-right: 10px;
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
+    width: 80px;
+    height: 40px;
+  }
+}
+
+/* NOISE GALLERY content */
+.modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+.modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+.modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+.modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+  display: inline-block;
+  object-fit: cover;
+  margin: 50px 10px;
+  width: 100%; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+    width: 70%;
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+    width: 60%;
+  }
+}
+
+/* NOISE color scheme */
+.modal-gallery img[src*="Imgs/Noise/greysquare.png"],
+.modal-gallery img[src*="Imgs/Noise/greensquare.png"],
+.modal-gallery img[src*="Imgs/Noise/purplesquare.png"],
+.modal-gallery img[src*="Imgs/Noise/offwhitesquare.png"] {
+  display: inline-block;
+  width: 200px; 
+  height: 150px; 
+  margin-right: 10px;
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/greensquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/offwhitesquare.png"] {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/greensquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Noise/offwhitesquare.png"] {
+    width: 80px;
+    height: 40px;
+  }
+}
+
+.modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+.modal-gallery img[src*="Imgs/Washing/events.JPG"],
+.modal-gallery img[src*="Imgs/Washing/function.JPG"],
+.modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+  display: inline-block;
+  object-fit: cover;
+  margin: 50px 10px;
+  width: 100%; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    width: 70%;
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    width: 60%;
+  }
+}
 .overlay-text {
   position: absolute;
   top: 50%;
