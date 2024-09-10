@@ -257,7 +257,7 @@ nav {
     color: rgb(168, 215, 167);
     text-transform: uppercase;
     margin-bottom: 20px;
-    margin-top: -200px;
+    margin-top: -190px;
     align-items: left;
     text-align: center;
     transition: transform 0.3s ease-in-out;
@@ -282,7 +282,6 @@ nav {
     }
     #work-title {
         font-size: 5rem;
-        margin-top: -200px
     }
 }
 
