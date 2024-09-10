@@ -198,7 +198,7 @@ nav {
 @media (max-width: 1920px){
     @media(max-width: 1920px){
         .section-title{
-            font-size: 200px
+            font-size: 200px;
         } 
     }
 }
