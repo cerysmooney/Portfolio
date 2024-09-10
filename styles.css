@@ -236,8 +236,8 @@ nav {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-      background-color: #e1b2b2;
-      /* padding: 4rem 2rem; */
+      background-color: #444;
+      padding: 4rem 2rem;
 }
 
 
@@ -249,7 +249,7 @@ nav {
 
 #work-title {
     font-size: 6rem;
-    font-weight: 700;
+    font-weight: 700px;
     color: rgb(168, 215, 167);
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -264,7 +264,7 @@ nav {
 
 .work-header {
     font-family: "Montserrat", sans-serif;
-    margin: 2rem 10rem 3rem 10rem;
+    margin: 10rem 10rem 3rem 10rem;
     text-align: center;
     align-items: center;
 }
