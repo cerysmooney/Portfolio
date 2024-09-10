@@ -201,7 +201,7 @@ nav {
     @media (max-width: 480px) {
         .section-title::before {
           content: "Welcome to my Portfolio!" ;
-          text-wrap: balance;
+          text-wrap: stable;
           text-transform: none;
           font-size: 85px;
           position: relative;
@@ -253,7 +253,8 @@ nav {
     font-weight: 700;
     color: rgb(168, 215, 167);
     text-transform: uppercase;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
     align-items: left;
     text-align: center;
     transition: transform 0.3s ease-in-out;
@@ -266,6 +267,8 @@ nav {
 .work-header {
     font-family: "Montserrat", sans-serif;
     margin: 10rem 10rem 3rem 10rem;
+    margin-top: 45px;
+    /* margin-bottom: 20px; */
     text-align: center;
     align-items: center;
 }
