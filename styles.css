@@ -236,15 +236,15 @@ nav {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-      /* background-color: #444;
-      padding: 4rem 2rem; */
+      background-color: #e1b2b2;
+      /* padding: 4rem 2rem; */
 }
 
 
-/* .greycolour {
-      padding: 5rem;
-      background-color: rgba(0,0,0,0.3);
-  } */
+.greycolour { 
+    padding: 5rem 3rem;
+    background-color: rgba(0,0,0,0.3);
+  }
 
 
 #work-title {
@@ -264,7 +264,7 @@ nav {
 
 .work-header {
     font-family: "Montserrat", sans-serif;
-    margin: 10rem 10rem 3rem 10rem;
+    margin: 2rem 10rem 3rem 10rem;
     text-align: center;
     align-items: center;
 }
