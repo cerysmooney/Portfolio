@@ -202,7 +202,7 @@ nav {
           text-wrap: stable;
           text-transform: none;
           font-size: 85px;
-          position: relative;
+          /* position: relative; */
           top: -100px; 
           display: block;
           text-align: center; 
