@@ -505,7 +505,7 @@ nav {
 .modal-gallery img[src*="Imgs/Washing/events.JPG"],
 .modal-gallery img[src*="Imgs/Washing/function.JPG"],
 .modal-gallery img[src*="Imgs/Washing/now.JPG"],
-.modal-gallery img[src*="Imgs/Washing/rep.JPG"] {
+.modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
   display: inline-block;
   object-fit: cover;
   margin: 50px 10px;
@@ -518,7 +518,7 @@ nav {
   .modal-gallery img[src*="Imgs/Washing/events.JPG"],
   .modal-gallery img[src*="Imgs/Washing/function.JPG"],
   .modal-gallery img[src*="Imgs/Washing/now.JPG"],
-  .modal-gallery img[src*="Imgs/Washing/rep.JPG"] {
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
       width: 80%;
   }
 }
@@ -528,7 +528,7 @@ nav {
   .modal-gallery img[src*="Imgs/Washing/events.JPG"],
   .modal-gallery img[src*="Imgs/Washing/function.JPG"],
   .modal-gallery img[src*="Imgs/Washing/now.JPG"],
-  .modal-gallery img[src*="Imgs/Washing/rep.JPG"] {
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
       width: 70%;
   }
 }
@@ -538,8 +538,45 @@ nav {
   .modal-gallery img[src*="Imgs/Washing/events.JPG"],
   .modal-gallery img[src*="Imgs/Washing/function.JPG"],
   .modal-gallery img[src*="Imgs/Washing/now.JPG"],
-  .modal-gallery img[src*="Imgs/Washing/rep.JPG"] {
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
       width: 60%;
+  }
+}
+
+/* WASHING COLOR SCHEME */
+.modal-gallery img[src*="Imgs/Washing/purplesquare.png"],
+.modal-gallery img[src*="Imgs/Washing/dgreensquare.png"],
+.modal-gallery img[src*="Imgs/Washing/lbrownsquare.png"],
+.modal-gallery img[src*="Imgs/Washing/lgreen.png"],
+.modal-gallery img[src*="Imgs/Washing/lgrey.png"] {
+  display: inline-block;
+  width: 200px; 
+  height: 150px; 
+  margin-right: 10px;
+  border-radius: 5px; 
+  object-fit: cover; 
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .modal-gallery img[src*="Imgs/Washing/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/dgreensquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/lbrownsquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/lgreen.png"],
+  .modal-gallery img[src*="Imgs/Washing/lgrey.png"] {
+      width: 100px;
+      height: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-gallery img[src*="Imgs/Washing/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/dgreensquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/lbrownsquare.png"],
+  .modal-gallery img[src*="Imgs/Washing/lgreen.png"],
+  .modal-gallery img[src*="Imgs/Washing/lgrey.png"] {
+      width: 80px;
+      height: 40px;
   }
 }
 
