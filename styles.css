@@ -195,6 +195,8 @@ nav {
     text-transform: capitalize;
 }
 
+
+
 @media (max-width: 480px) {
     @media (max-width: 480px) {
         .section-title::before {
@@ -211,6 +213,8 @@ nav {
         font-size: 0; 
     }
 
+
+    
     .rounded-shape-bg {
         opacity: 70%;
     height: 130px;
@@ -232,8 +236,15 @@ nav {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+      /* background-color: #444;
+      padding: 4rem 2rem; */
 }
 
+
+/* .greycolour {
+      padding: 5rem;
+      background-color: rgba(0,0,0,0.3);
+  } */
 
 
 #work-title {
@@ -244,7 +255,12 @@ nav {
     margin-bottom: 20px;
     align-items: left;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
+
+#work-title:hover {
+    transform: scale(1.05); 
+  }
 
 .work-header {
     font-family: "Montserrat", sans-serif;
@@ -827,7 +843,14 @@ img:hover {
       margin-bottom: 20px;
       align-items: left;
       text-align: center;
+      transition: transform 0.3s ease-in-out;
   }
+
+  #about-title:hover{
+    transform: scale(1.05);
+  }
+
+  
   
   #about-text {
       font-size: 2rem;
@@ -935,7 +958,13 @@ img:hover {
     text-transform: uppercase;
     margin-bottom: 20px;
     text-align: left;
+    transition: transform 0.5s ease-in-out; 
 }
+
+#co-title:hover{
+    transform: scale(1.05);  
+}
+
 
 #co-text {
     font-size: 1.5rem; 
