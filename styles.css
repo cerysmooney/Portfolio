@@ -257,12 +257,11 @@ padding-bottom: 300px;
 
 
   .greycolour {
-    background-color: rgba(0,0,0,0.3);
-    padding: 4rem 2rem; 
+    background-color: rgba(0,0,0,0.3); 
+    padding: 4rem 2rem;
+    margin: 4rem 1rem 2rem 1rem;
     background-size: cover;
 }
-
- 
 
   .spacer {
     height: 200px; 
