@@ -232,16 +232,20 @@ nav {
 
 /*  gallery section */
 .gallery-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-      background-color: #444;
-      padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #444;
+    padding: 4rem 2rem;
+    background-size: cover;
 }
 
 
 .greycolour { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 5rem 3rem;
     background-color: rgba(0,0,0,0.3);
   }
