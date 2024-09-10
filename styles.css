@@ -200,7 +200,8 @@ nav {
 @media (max-width: 480px) {
     @media (max-width: 480px) {
         .section-title::before {
-          content: "Welcome to my Portfolio!" ;
+          content: "Welcome to my Portfolio" ;
+          text-wrap: balance;
           text-transform: none;
           font-size: 85px;
           position: relative;
