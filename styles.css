@@ -279,14 +279,23 @@ padding-bottom: 300px;
     margin-bottom: 20px;
     align-items: left;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
+
+#work-title:hover {
+    transform: scale(1.05); 
+  }
+
 
 .work-header {
     font-family: "Montserrat", sans-serif;
     margin: 10rem 10rem 3rem 10rem;
     text-align: center;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
 }
+
+
 
 
 @media (max-width: 1200px) {
@@ -873,7 +882,14 @@ img:hover {
       margin-bottom: 20px;
       align-items: left;
       text-align: center;
-  }
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    #about-title:hover{
+      transform: scale(1.05);
+    }
+
+    
   
   #about-text {
       font-size: 2rem;
