@@ -200,8 +200,7 @@ nav {
 @media (max-width: 480px) {
     @media (max-width: 480px) {
         .section-title::before {
-          content: "Welcome to my Portfolio" ;
-          text-wrap: balance;
+          content: "Welcome to my Portfolio!" ;
           text-transform: none;
           font-size: 85px;
           position: relative;
@@ -233,37 +232,31 @@ nav {
 
 /*  gallery section */
 .gallery-section {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background-color: #444;
-    padding: 4rem 2rem;
-    background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+      /* background-color: #444;
+      padding: 4rem 2rem; */
 }
 
 
-.greycolour { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5rem 3rem;
-    background-color: rgba(0,0,0,0.3);
-  }
+/* .greycolour {
+      padding: 5rem;
+      background-color: rgba(0,0,0,0.3);
+  } */
 
 
 #work-title {
     font-size: 6rem;
-    font-weight: 700px;
+    font-weight: 700;
     color: rgb(168, 215, 167);
     text-transform: uppercase;
     margin-bottom: 20px;
-    margin-top: -190px;
     align-items: left;
     text-align: center;
     transition: transform 0.3s ease-in-out;
 }
-
 
 #work-title:hover {
     transform: scale(1.05); 
@@ -276,16 +269,6 @@ nav {
     align-items: center;
 }
 
-
-@media (max-width: 1920px) {
-    .work-header {
-        margin: 8rem 5rem;
-    }
-    #work-title {
-        font-size: 5rem;
-        margin-top: -150px;
-    }
-}
 
 @media (max-width: 1200px) {
     .work-header {
@@ -302,7 +285,6 @@ nav {
     }
     #work-title {
         font-size: 4.5rem;
-     
     }
 }
 
@@ -312,7 +294,6 @@ nav {
     }
     #work-title {
         font-size: 4rem;
-        margin-top: -100px;
     }
 }
 
@@ -322,7 +303,6 @@ nav {
     }
     #work-title {
         font-size: 3rem;
-        margin-top: -100px;
     }
 }
 
@@ -332,13 +312,12 @@ nav {
     }
     #work-title {
         font-size: 2.5rem;
-        margin-top: -100px;
     }
 }
 
 #gallery {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
 }
@@ -410,10 +389,7 @@ img:hover {
   }
   
   .gallery-section {
-    padding: 10px; 
-    background-color: #444;
-      padding: 4rem 2rem;
-      background-size: cover;
+    padding: 20px; 
   }
 
 .modal-gallery {
