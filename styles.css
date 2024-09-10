@@ -266,6 +266,27 @@ img:hover {
   }
 }
 
+@media (min-width: 1400px) {
+    img {
+      max-width: 400px; 
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    img {
+      max-width: 500px; 
+    }
+  }
+  
+  @media (min-width: 1800px) {
+    img {
+      max-width: 600px; 
+    }
+  }
+  
+  .gallery-section {
+    padding: 20px; 
+  }
 
 .modal-gallery {
   display: flex;
