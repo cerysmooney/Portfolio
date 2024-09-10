@@ -719,22 +719,38 @@ img:hover {
   }
 }
 
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  width: 100%; 
-}
 
-.gallery-item:hover .overlay-text {
-  opacity: 1;
-}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 100%; 
+  }
+  
+
+  .gallery-item:hover .overlay-text {
+    opacity: 1;
+  }
+  
+ 
+@media (max-width: 768px) {
+    .gallery-item {
+      position: relative;
+    }
+  
+    .overlay-text {
+      opacity: 1; 
+      font-size: 14px; 
+    }
+  }
+
+
 
 
 @media (max-width: 1024px) {
