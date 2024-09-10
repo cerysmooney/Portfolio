@@ -400,7 +400,10 @@ img:hover {
   }
   
   .gallery-section {
-    padding: 20px; 
+    padding: 10px; 
+    background-color: #444;
+      padding: 3.5rem 1.5rem;
+      background-size: cover;
   }
 
 .modal-gallery {
