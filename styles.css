@@ -196,15 +196,17 @@ nav {
 }
 
 @media (max-width: 480px) {
-    .section-title::before {
-        content: "I'm Cerys...";
-        font-size: 100px;
-        align-items: center;
-        align-content: center;
-        text-wrap: pretty;
-      
-    }
-
+    @media (max-width: 480px) {
+        .section-title::before {
+          content: "Welcome to my Portfolio." ;
+          text-transform: none;
+          font-size: 100px;
+          position: relative;
+          top: -100px; 
+          display: block;
+          text-align: center; 
+        }
+      }
     .section-title {
         font-size: 0; 
     }
