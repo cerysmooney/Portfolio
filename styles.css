@@ -681,162 +681,143 @@ nav {
 
 
     .about-section {
-        background-color: #444;
-        padding: 4rem 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .about-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 1200px;
-        width: 100%;
-        margin: auto;
-    }
-    
-    .about-text {
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-    
-    .about-text h2 {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-        color: rgb(168, 215, 167);
-        text-align: left;
-        text-transform: uppercase;
-    }
-    
-    .about-text p {
-        font-size: 1.2rem;
-        line-height: 1.6;
-        color: #666;
-    }
-    
-    .about-image img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 10px;
-        cursor: auto;
-    }
-    
-
-    @media (max-width: 768px) {
-        .about-container {
-            flex-direction: column;
-        }
-    
-        .about-image {
-            margin-top: 1rem;
-        }
-    }
-
-    @media (min-width: 1200px) {
-      .about-image img {
-          max-width: 120%; 
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      background-color: #444;
+      padding: 4rem 2rem;
+      background-size: cover;
+  }
+  
+  .about-header {
+      font-family: "Montserrat", sans-serif;
+      margin: 10rem 10rem 3rem 10rem;
+      text-align: center;
+      align-items: center;
+  }
+  
+  #about-title {
+      font-size: 6rem;
+      font-weight: 700;
+      color: rgb(168, 215, 167);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      align-items: left;
+      text-align: center;
+  }
+  
+  #about-text {
+      font-size: 3rem;
+      color: white;
+      padding-bottom: 2rem;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .about-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem;
+      background-color: rgba(0,0,0,0.3);
+  }
+  
+  .about-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      cursor: auto;
+  }
+  
+  @media (max-width: 768px) {
+      .about-header {
+          margin: 5rem 2rem;
       }
   }
 
-    .contact {
-        display: flex;
-        flex-direction: column; 
-        position: relative;
-        /* background: linear-gradient(to bottom right, rgba(0,0,0, 0.9), rgba(36,11,54, 0.8), rgba(195,20,50,0.9)), url("https://i.imgur.com/3vacZxN.jpg") center no-repeat; */
-        background-size: cover;
-      }
-      
-      .contact-header {
-        font-family: "Montserrat", sans-serif;
-        margin: 10rem 10rem 3rem 10rem;
-        text-align: center;
-        align-items: center;
-      }
-      
-      #co-title {
-        font-size: 1.2rem;
-        font-weight: 700;
-        color: rgb(168, 215, 167);
-        text-transform: uppercase;
-        margin-bottom: 20px;
-        align-items: center;
-        text-align: center;
-        
-      }
-      
-      #co-text {
-        font-size: 3rem;
-        color: white;
-        padding-bottom: 2rem;
-        align-items: center;
-        text-align: center;
-      }
-      
-      .contact-content {
-        display: flex;
-        justify-content: space-between;
-        align-self: center;
-        line-height: 2;
-        height: auto;
-        width: 70%;
-        background-color: rgba(0,0,0,0.6);
-        margin-bottom: 10rem;
-      }
-      
-    
-      
-      .contact-info {
-        display: flex;
-        flex-direction: column;
-        /* FIX THIS - WAS FLEX-END*/
-        align-items: center;
-        justify-content: center;
-        padding: 5rem;
-        background-color: rgba(0,0,0,0.3);
-      }
-      
-      .contact-info h3 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 1rem;
-        color: rgb(168, 215, 167);
-      }
-      
-      .contact-info a {
-        font-family: "Montserrat", sans-serif;
-        text-decoration: none;
-        color: #666;
-        font-size: 0.8rem;
-        letter-spacing: 2px;
-        line-height: 3rem;
-        margin-bottom: 5rem;
-        transition: all .3s ease;
-      }
-      
-      .contact-info a:hover {
-        transform: translateY(-2.5%);
-        color: rgb(168, 215, 167);
-      }
-      
-      .contact-info .fab {
-        font-size: 1.5rem;
-        line-height: 3rem;
-        padding-left: 2rem;
-        color: #666;
-        cursor: pointer;
-        transition: all .3s ease;
-        /* FIX THIS - ADDED THESE */
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .fab:hover{
-        transform: scale(1.2);
-        color: rgb(168, 215, 167);
-      }
-      
+  .contact {
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+    background-size: cover;
+    padding: 6rem 3rem; 
+}
+
+.contact-header {
+    font-family: "Montserrat", sans-serif;
+    margin: 12rem 12rem 4rem 12rem; 
+    text-align: left;
+    align-items: flex-start;
+}
+
+#co-title {
+    font-size: 7rem; 
+    font-weight: 700;
+    color: rgb(168, 215, 167);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#co-text {
+    font-size: 4rem; 
+    color: white;
+    padding-bottom: 3rem; 
+    text-align: left;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem; 
+    background-color: rgba(0,0,0,0.3);
+}
+
+.contact-info h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem; 
+    color: rgb(168, 215, 167);
+}
+
+.contact-info a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #666;
+  font-size: 1.5rem;
+  letter-spacing: 2.5px;
+  line-height: 4rem;
+  margin-bottom: 6rem;
+  transition: all .3s ease;
+}
+
+.contact-info a:hover {
+  transform: translateY(-2.5%);
+  color: rgb(168, 215, 167); 
+}
+
+
+.contact-info a p:hover {
+  color: rgb(168, 215, 167); 
+  transform: translateY(-2.5%);
+}
+
+.contact-info .fab {
+    font-size: 2rem; 
+    line-height: 4rem; 
+    letter-spacing: 2.5rem; 
+    padding-left: 2.5rem;
+    color: #666;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.fab:hover {
+    transform: scale(1.3); 
+    color: rgb(168, 215, 167);
+}
       
       @media (min-width: 1200px) {
         .contact-content {
