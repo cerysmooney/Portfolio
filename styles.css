@@ -250,9 +250,15 @@ nav {
 }
 
 .gallery-section {
-    /* padding: 20px;  */
-    padding-bottom: 200px;
+    padding: 20px;  
+padding-bottom: 300px;
   }
+
+
+  .spacer {
+    height: 200px; /* Adjust this height as needed */
+    width: 100%;
+}
 
 
 
