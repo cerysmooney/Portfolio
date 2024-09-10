@@ -195,8 +195,6 @@ nav {
     text-transform: capitalize;
 }
 
-
-
 @media (max-width: 480px) {
     @media (max-width: 480px) {
         .section-title::before {
@@ -210,12 +208,11 @@ nav {
           text-align: center; 
         }
       }
+
     .section-title {
         font-size: 0; 
     }
 
-
-    
     .rounded-shape-bg {
         opacity: 70%;
     height: 130px;
@@ -237,15 +234,8 @@ nav {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-      /* background-color: #444;
-      padding: 4rem 2rem; */
 }
 
-
-/* .greycolour {
-      padding: 5rem;
-      background-color: rgba(0,0,0,0.3);
-  } */
 
 
 #work-title {
@@ -253,22 +243,14 @@ nav {
     font-weight: 700;
     color: rgb(168, 215, 167);
     text-transform: uppercase;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
+    margin-bottom: 20px;
     align-items: left;
     text-align: center;
-    transition: transform 0.3s ease-in-out;
 }
-
-#work-title:hover {
-    transform: scale(1.05); 
-  }
 
 .work-header {
     font-family: "Montserrat", sans-serif;
     margin: 10rem 10rem 3rem 10rem;
-    margin-top: 45px;
-    /* margin-bottom: 20px; */
     text-align: center;
     align-items: center;
 }
@@ -394,7 +376,6 @@ img:hover {
   
   .gallery-section {
     padding: 20px; 
-    margin-bottom: 5rem;
   }
 
 .modal-gallery {
@@ -724,26 +705,31 @@ img:hover {
   }
 }
 
-
 .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    width: 100%; 
-  }
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 100%; 
+}
 
-  .gallery-item:hover .overlay-text {
-    opacity: 1;
+.gallery-item:hover .overlay-text {
+  opacity: 1;
+}
+
+
+@media (max-width: 1024px) {
+  .modal-gallery img {
+      width: calc(50% - 10px); 
+      max-width: 400px; 
   }
-  
- 
+}
+
 @media (max-width: 768px) {
     .gallery-item {
       position: relative;
@@ -755,15 +741,6 @@ img:hover {
     }
   }
 
-
-
-
-@media (max-width: 1024px) {
-  .modal-gallery img {
-      width: calc(50% - 10px); 
-      max-width: 400px; 
-  }
-}
 
 @media (max-width: 600px) {
   .modal-gallery img {
@@ -864,14 +841,7 @@ img:hover {
       margin-bottom: 20px;
       align-items: left;
       text-align: center;
-      transition: transform 0.3s ease-in-out;
   }
-
-  #about-title:hover{
-    transform: scale(1.05);
-  }
-
-  
   
   #about-text {
       font-size: 2rem;
@@ -979,13 +949,7 @@ img:hover {
     text-transform: uppercase;
     margin-bottom: 20px;
     text-align: left;
-    transition: transform 0.5s ease-in-out; 
 }
-
-#co-title:hover{
-    transform: scale(1.05);  
-}
-
 
 #co-text {
     font-size: 1.5rem; 
