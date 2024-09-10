@@ -282,12 +282,29 @@ nav {
 }
 
 /* First image with overlay */
+
 .gallery-item {
   position: relative;
-  width: 300px;
+  width: 100%;
+  max-width: 300px; 
   aspect-ratio: calc(1 + var(--f));
+
 }
 
+@media (min-width: 600px) {
+  .gallery-item {
+    width: 100%;
+    max-width: 400px; 
+  }
+}
+
+/* Styles for larger screens */
+@media (min-width: 1200px) {
+  .gallery-item {
+    width: 100%;
+    max-width: 330px; 
+  }
+}
 .gallery-item img {
   width: 100%;
   height: 100%;
