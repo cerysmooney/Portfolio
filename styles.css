@@ -277,6 +277,16 @@ nav {
 }
 
 
+@media (max-width: 1920px) {
+    .work-header {
+        margin: 8rem 5rem;
+    }
+    #work-title {
+        font-size: 5rem;
+        margin-top: -150px;
+    }
+}
+
 @media (max-width: 1200px) {
     .work-header {
         margin: 8rem 5rem;
