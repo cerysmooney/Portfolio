@@ -236,7 +236,7 @@ nav {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-      background-color: #444;
+      background-color: #c73a3a;
       padding: 4rem 2rem;
 }
 
@@ -253,6 +253,7 @@ nav {
     color: rgb(168, 215, 167);
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-top: -200px;
     align-items: left;
     text-align: center;
     transition: transform 0.3s ease-in-out;
