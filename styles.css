@@ -247,6 +247,7 @@ nav {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #444;
 }
 
 .gallery-section {
@@ -255,10 +256,19 @@ padding-bottom: 300px;
   }
 
 
+  .greycolour {
+    background-color: rgba(0,0,0,0.3);
+    padding: 4rem 2rem; 
+    background-size: cover;
+}
+
+ 
+
   .spacer {
     height: 200px; 
     width: 100%;
 }
+
 
 
 
@@ -847,6 +857,8 @@ img:hover {
       background-size: cover;
   }
   
+
+
   .about-header {
       font-family: "Montserrat", sans-serif;
       margin: 10rem 10rem 3rem 10rem;
