@@ -650,6 +650,31 @@ img:hover {
   }
 }
 
+
+@media (min-width: 1920px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"],
+  .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+  .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+      width: 90%;
+      margin: 70px auto; 
+  }
+
+  .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
+      width: 300px; 
+      height: 225px; 
+  }
+}
+
 /* NOISE COLOR SCHEME */
 .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
 .modal-gallery img[src*="Imgs/Noise/greensquare.png"],
