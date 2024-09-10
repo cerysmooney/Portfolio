@@ -203,10 +203,10 @@ nav {
     }
 
     .rounded-shape-bg {
-        height: 200px;
-        width: 85%;
-        border-radius: 40px 40px 5px 5px;
-        top: 250px;
+        height: 250px; 
+        width: 90%; 
+        border-radius: 50px 50px 5px 5px; 
+        top: 250px;;
     }
 }
 
