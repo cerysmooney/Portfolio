@@ -438,37 +438,21 @@ img:hover {
   
 
 .modal-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 images per row */
-    gap: 20px; /* Spacing between the images */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* inside gallery images */
 .modal-gallery img {
-    width: 100%; /* Make sure the images fill their grid space */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Clean look by covering the available space */
-    border-radius: 10px; /* Optional: Add a rounded effect */
+  width: calc(33.33% - 20px); 
+  max-width: 500px;
+  border-radius: 15px;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
-
-@media (max-width: 1200px) {
-    .modal-gallery {
-      grid-template-columns: repeat(2, 1fr); /* 2 images per row on smaller screens */
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .modal-gallery {
-      grid-template-columns: 1fr; /* 1 image per row on mobile screens */
-    }
-  }
-
-  .modal-gallery-container {
-    max-width: 1600px; /* Keep the gallery centered with a max-width */
-    margin: 0 auto; /* Center the gallery */
-    padding: 20px;
-  }
 
 .gallery-item {
   position: relative;
