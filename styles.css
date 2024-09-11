@@ -437,11 +437,11 @@ img:hover {
   }
   
 
-  .modal-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Adjust spacing between images */
-    padding: 20px; /* Adjust padding as needed */
+.modal-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* inside gallery images */
@@ -542,34 +542,6 @@ img:hover {
   margin: 50px 10px;
   width: 100%; 
   height: auto;
-}
-
-@media (min-width: 1920px) {
-  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
-  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
-  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
-  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
-  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"],
-  .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
-  .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
-  .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
-  .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
-    
-    flex: 1 1 calc(20% - 20px); /* Adjust for responsiveness */
-    margin-bottom: 20px;
-    border-radius: 5px;
-    object-fit: cover;
-  }
-
-  .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
-  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
-  .modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
-  .modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
-  .modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
-    flex: 1 1 calc(25% - 20px); /* Adjust for responsiveness */
-    margin-bottom: 20px;
-    object-fit: cover;
-  }
 }
 
 @media (max-width: 768px) {
@@ -677,9 +649,6 @@ img:hover {
       width: 60%;
   }
 }
-
-
-
 
 /* NOISE COLOR SCHEME */
 .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
