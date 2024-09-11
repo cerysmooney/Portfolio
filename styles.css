@@ -764,32 +764,6 @@ img:hover {
   }
 }
 
-@media (min-width: 1920px) {
-    .gallery-item {
-      width: calc(33.33% - 20px); 
-      max-width: 400px;
-    }
-  
-    .modal-gallery img {
-      width: calc(33.33% - 20px); 
-      max-width: 500px;
-    }
-  
-    .modal-gallery img[src*="8EAC7A.png"],
-    .modal-gallery img[src*="EE9B01.png"],
-    .modal-gallery img[src*="EE8434.png"],
-    .modal-gallery img[src*="da6a00.png"],
-    .modal-gallery img[src*="597393.png"] {
-      width: 150px;
-      height: 100px;
-      margin-right: 10px;
-      border-radius: 5px;
-      object-fit: cover;
-      margin-top: 50px;
-      flex: 0 0 auto; 
-    }
-  }
-
 .overlay-text {
   position: absolute;
   top: 50%;
