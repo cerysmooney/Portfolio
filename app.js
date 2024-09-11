@@ -116,3 +116,43 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const aboutInfo = document.querySelector(".about-fade");
+  
+    const revealAboutInfo = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("reveal");
+        } else {
+          entry.target.classList.remove("reveal");
+        }
+      });
+    };
+  
+    const observer = new IntersectionObserver(revealAboutInfo, {
+      threshold: 0.5   
+    });
+  
+    observer.observe(aboutInfo);
+  });
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const workInfo = document.querySelector(".work-fade");
+  
+    const revealWorkInfo = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("reveal");
+        } else {
+          entry.target.classList.remove("reveal");
+        }
+      });
+    };
+  
+    const observer = new IntersectionObserver(revealWorkInfo, {
+      threshold: 0.5   
+    });
+  
+    observer.observe(workInfo);
+  });

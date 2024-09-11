@@ -284,6 +284,18 @@ padding-bottom: 300px;
   }
 
 
+  .work-fade{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  
+  .work-fade.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 .work-header {
     font-family: 'Oswald', sans-serif;
     margin: 10rem 10rem 3rem 10rem;
@@ -983,6 +995,18 @@ img:hover {
       background-color: rgba(0,0,0,0.3);
   }
   
+  .about-fade{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  
+  .about-fade.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
   .about-image img {
     max-width: 100%;
     height: auto;
