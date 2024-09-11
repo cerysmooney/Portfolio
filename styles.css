@@ -665,6 +665,14 @@ img:hover {
     }
 }
 
+@media (min-width: 1200px) {
+    .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+    .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+    .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+    .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+        width: 90%; 
+    }
+}
 
 @media (max-width: 768px) {
   .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
