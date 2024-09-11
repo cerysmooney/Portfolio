@@ -655,6 +655,14 @@ img:hover {
   height: auto;
 }
 
+@media (min-width: 1200px) {
+    .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
+    .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
+    .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
+    .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
+        width: 90%; 
+    }
+}
 
 @media (min-width: 1900px) {
     .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
@@ -665,21 +673,12 @@ img:hover {
     }
 }
 
-@media (min-width: 1200px) {
-    .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
-    .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
-    .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
-    .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
-        width: 90%; 
-    }
-}
-
 @media (max-width: 768px) {
   .modal-gallery img[src*="Imgs/Noise/waveform.JPG"],
   .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
   .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
   .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
-      width: 80%;
+      width: 80%; 
   }
 }
 
@@ -688,7 +687,7 @@ img:hover {
   .modal-gallery img[src*="Imgs/Noise/vls.JPG"],
   .modal-gallery img[src*="Imgs/Noise/psd.JPG"],
   .modal-gallery img[src*="Imgs/Noise/example.JPG"] {
-      width: 70%;
+      width: 70%; 
   }
 }
 
