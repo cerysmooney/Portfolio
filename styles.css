@@ -392,56 +392,6 @@ img:hover {
 
 }
 
-@media (min-width: 1920px) {
-    img {
-      max-width: 650px; /* Larger max-width for bigger screens */
-    }
-    .gallery-item {
-      max-width: 650px; /* Ensure items scale uniformly */
-    }
-  }
-  /* For large screens (1200px+) */
-@media (min-width: 1200px) {
-    .modal-gallery img {
-      width: calc(33.33% - 20px); /* Three images in a row */
-      max-width: 500px;
-    }
-  }
-  
-  /* For smaller screens */
-  @media (max-width: 768px) {
-    .modal-gallery img {
-      width: 100%; /* Make them full width for smaller screens */
-      max-width: 100%;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .modal-gallery img[src*="8EAC7A.png"],
-    .modal-gallery img[src*="EE9B01.png"],
-    .modal-gallery img[src*="EE8434.png"],
-    .modal-gallery img[src*="da6a00.png"],
-    .modal-gallery img[src*="597393.png"] {
-      width: 200px;
-      height: 150px;
-    }
-  }
-
-
-  .gallery-section {
-    padding: 20px;
-    padding-bottom: 100px; /* Reduced to maintain layout on larger screens */
-  }
-  
-  .greycolour {
-    padding: 5rem 3rem; /* Increased padding for better spacing */
-  }
-  
-  @media (max-width: 768px) {
-    .greycolour {
-      padding: 3rem 1.5rem; /* Responsive padding for smaller screens */
-    }
-  }
 
 @media (max-width: 320px){
     img {
