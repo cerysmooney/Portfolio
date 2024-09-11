@@ -440,7 +440,7 @@ img:hover {
 .modal-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 10px;
 }
 
@@ -563,7 +563,9 @@ img:hover {
     .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
     .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
     .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-        width: 200%; 
+        width: 120%; 
+        width: calc(50% - 20px);
+        height: auto; 
     }
     
     .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
