@@ -766,16 +766,20 @@ img:hover {
 
 @media (min-width: 1920px) {
     .modal-gallery {
-      gap: 20px; 
+      gap: 15px; 
+      justify-content: center; 
     }
   
     .modal-gallery img {
-      width: calc(25% - 20px); 
-      max-width: 700px; 
+      flex-basis: calc(25% - 20px); 
+      max-width: 400px; 
+      height: auto;
     }
   
     .gallery-item {
-      max-width: 450px; 
+      max-width: 400px; 
+      width: 100%;
+      margin-bottom: 20px;
     }
   }
 
