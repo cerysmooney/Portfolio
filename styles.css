@@ -764,6 +764,21 @@ img:hover {
   }
 }
 
+@media (min-width: 1920px) {
+    .modal-gallery {
+      gap: 20px; 
+    }
+  
+    .modal-gallery img {
+      width: calc(25% - 20px); 
+      max-width: 700px; 
+    }
+  
+    .gallery-item {
+      max-width: 450px; 
+    }
+  }
+
 .overlay-text {
   position: absolute;
   top: 50%;
