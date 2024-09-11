@@ -1083,6 +1083,18 @@ img:hover {
     padding: 4rem 2rem; 
 }
 
+.contact-fade{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  
+  .contact-fade.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 .contact-header {
     font-family: 'Oswald', sans-serif;
     margin: 8rem 4rem 2rem 4rem; 

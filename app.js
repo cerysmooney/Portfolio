@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const observer = new IntersectionObserver(revealAboutInfo, {
-      threshold: 0.5   
+      threshold: 0.4  
     });
   
     observer.observe(aboutInfo);
@@ -151,8 +151,29 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const observer = new IntersectionObserver(revealWorkInfo, {
-      threshold: 0.5   
+      threshold: 0.3   
     });
   
     observer.observe(workInfo);
+  });
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const contactInfo = document.querySelector(".contact-fade");
+  
+    const revealContactInfo = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("reveal");
+        } else {
+          entry.target.classList.remove("reveal");
+        }
+      });
+    };
+  
+    const observer = new IntersectionObserver(revealContactInfo, {
+      threshold: 0.5
+    });
+  
+    observer.observe(contactInfo);
   });
