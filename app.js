@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'Imgs/Kaiffa/egg.png',
             'Imgs/Kaiffa/Grey Blue.png',
             'Imgs/Kaiffa/Deep Blue.png',
-            'Imgs/Kaiffa/Group 54.png',
+            // 'Imgs/Kaiffa/Group 54.png',
             'Imgs/Kaiffa/Group 55.png',
             'Imgs/Kaiffa/Frame 58.png',
              'Imgs/Kaiffa/Group 49.png',

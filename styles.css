@@ -563,7 +563,7 @@ img:hover {
     .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
     .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
     .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-        width: 120%; 
+        width: 100%; 
     }
     
     .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
