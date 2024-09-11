@@ -544,13 +544,34 @@ img:hover {
   height: auto;
 }
 
+@media (min-width: 1024px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    width: 60%;
+  }
+}
+
+/* Smaller screen sizes adjustments */
 @media (max-width: 768px) {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-      width: 80%; 
+    width: 80%; 
   }
 }
 
@@ -560,7 +581,7 @@ img:hover {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-      width: 70%; 
+    width: 70%; 
   }
 }
 
@@ -570,7 +591,7 @@ img:hover {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-      width: 60%;
+    width: 60%;
   }
 }
 
@@ -589,6 +610,27 @@ img:hover {
   margin-top: 50px;
 }
 
+@media (min-width: 1024px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
+    width: 250px; 
+    height: 200px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
+    width: 300px; 
+    height: 250px;
+  }
+}
 @media (max-width: 600px) {
   .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
