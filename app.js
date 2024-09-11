@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const observer = new IntersectionObserver(revealContactInfo, {
-      threshold: 0.5
+      threshold: 0.8
     });
   
     observer.observe(contactInfo);
