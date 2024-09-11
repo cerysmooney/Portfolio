@@ -1,4 +1,4 @@
-/* Global styles */
+/* global */
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +9,9 @@
 body {
     background-color: #222;
     height: 100vh;
-    /* Removed commented width and margin properties */
+ 
 }
 
-/* Navigation styles */
 nav {
     padding: 1rem;
     background-color: #222;
@@ -37,17 +36,17 @@ nav {
     font-size: 1rem; 
 }
 
-/* Hamburger menu styles */
+/* hamburg */
 .hamburger-menu {
     height: 50px;
     width: 50px;
-    position: fixed; /* Changed to fixed */
+    position: fixed; 
     top: 1rem; 
     right: 1rem; 
     cursor: pointer;
     padding: 1rem;
     transition: background-color 0.3s ease;
-    z-index: 1000; /* Ensures it stays above other content */
+    z-index: 1000; 
 }
 
 .ham-bar {
@@ -90,7 +89,7 @@ nav {
     background-color: rgb(168, 215, 167);
 }
 
-/* Off-screen menu styles */
+
 .off-screen-menu {
     background-color: #222;
     opacity: 0.9;
@@ -135,7 +134,7 @@ nav {
     color: rgb(168, 215, 167);
 }
 
-/* Media queries */
+
 @media (max-width: 600px) {
     .off-screen-menu {
         width: 60%;
@@ -157,7 +156,7 @@ nav {
     }
 }
 
-/* Scroll reveal styles */
+
 .scroll-reveal {
     padding: 2rem;
     transition: color 0.4s ease;
@@ -168,7 +167,7 @@ nav {
     color: rgb(168, 215, 167);
 }
 
-/* Section title styles */
+
 .section-title {
     position: relative;
     z-index: 2;
@@ -180,7 +179,6 @@ nav {
 
 
 
-/* Section background styles */
 .rounded-shape-bg {
     opacity: 70%;
     height: 290px;
@@ -194,7 +192,6 @@ nav {
     z-index: 1;
 }
 
-/* Media queries for larger screens */
 @media (min-width: 1920px) {
     .section-title {
         font-size: 220px;
@@ -209,7 +206,7 @@ nav {
     }
 }
 
-/* Media queries for smaller screens */
+
 @media (max-width: 480px) {
     .section-title::before {
         content: "Hi!";
