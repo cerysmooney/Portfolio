@@ -1034,6 +1034,7 @@ img:hover {
       }
       #about-text {
           font-size: 1.2rem;
+          text-wrap: balance;
       }
   }
   
@@ -1046,6 +1047,7 @@ img:hover {
       }
       #about-text {
           font-size: 1rem;
+          text-wrap: balance;
       }
   }
 
