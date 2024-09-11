@@ -704,6 +704,7 @@ img:hover {
 .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
 .modal-gallery img[src*="Imgs/Noise/greensquare.png"],
 .modal-gallery img[src*="Imgs/Noise/purplesquare.png"],
+.modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
 .modal-gallery img[src*="Imgs/Noise/offwhitesquare.png"] {
   display: inline-block;
   width: 200px; 
@@ -718,6 +719,7 @@ img:hover {
   .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
   .modal-gallery img[src*="Imgs/Noise/greensquare.png"],
   .modal-gallery img[src*="Imgs/Noise/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
   .modal-gallery img[src*="Imgs/Noise/offwhitesquare.png"] {
       width: 100px;
       height: 50px;
@@ -728,6 +730,7 @@ img:hover {
   .modal-gallery img[src*="Imgs/Noise/greysquare.png"],
   .modal-gallery img[src*="Imgs/Noise/greensquare.png"],
   .modal-gallery img[src*="Imgs/Noise/purplesquare.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
   .modal-gallery img[src*="Imgs/Noise/offwhitesquare.png"] {
       width: 80px;
       height: 40px;

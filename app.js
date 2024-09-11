@@ -93,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "Imgs/Noise/greysquare.png",
             "Imgs/Noise/greensquare.png",
             "Imgs/Noise/purplesquare.png",
+            'Imgs/Kaiffa/Almost White.png',
             "Imgs/Noise/offwhitesquare.png",
             'Imgs/Noise/waveform.JPG',
             'Imgs/Noise/vls.JPG',
