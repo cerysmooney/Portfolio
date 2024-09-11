@@ -985,6 +985,32 @@ img:hover {
       text-transform: none;
       text-wrap: balance;
   }
+
+  #about-text {
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 2rem;
+    align-items: center;
+    text-align: center;
+    text-transform: none;
+    text-wrap: balance;
+}
+
+
+@media (max-width: 768px) {
+    #about-text {
+        font-size: 1.5rem; 
+        padding-bottom: 1.5rem; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    #about-text {
+        font-size: 1.2rem; 
+        padding-bottom: 1rem;
+    }
+}
   
   .about-info {
       display: flex;
