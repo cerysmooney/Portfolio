@@ -995,24 +995,25 @@ img:hover {
       background-color: rgba(0,0,0,0.3);
   }
   
-  .about-fade{
+  .about-fade, .about-image-wrapper {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.5s ease, transform 0.5s ease;
   }
-
   
-  .about-fade.reveal {
+  .about-fade.reveal, .about-image-wrapper.reveal {
     opacity: 1;
     transform: translateY(0);
   }
-
-  .about-image img {
+  
+  .about-image {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     cursor: auto;
-}
+  }
+
+  
   @media (max-width: 1200px) {
       .about-header {
           margin: 8rem 5rem;

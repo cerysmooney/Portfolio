@@ -118,7 +118,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-    const aboutInfo = document.querySelector(".about-fade");
+    const aboutFade = document.querySelector(".about-fade");
+    const aboutImageWrapper = document.querySelector(".about-image-wrapper");
   
     const revealAboutInfo = (entries) => {
       entries.forEach(entry => {
@@ -131,11 +132,14 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const observer = new IntersectionObserver(revealAboutInfo, {
-      threshold: 0.4  
+      threshold: 0.4
     });
   
-    observer.observe(aboutInfo);
+    observer.observe(aboutFade);
+    observer.observe(aboutImageWrapper);
   });
+
+
 
   document.addEventListener("DOMContentLoaded", () => {
     const workInfo = document.querySelector(".work-fade");
@@ -151,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const observer = new IntersectionObserver(revealWorkInfo, {
-      threshold: 0.3   
+      threshold: 0.3  
     });
   
     observer.observe(workInfo);
