@@ -971,6 +971,7 @@ img:hover {
       align-items: center;
       text-align: center;
       text-transform: none;
+      text-wrap: balance;
   }
   
   .about-info {
