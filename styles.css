@@ -1,3 +1,4 @@
+/* Global styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,12 +9,10 @@
 body {
     background-color: #222;
     height: 100vh;
-    /* width: 100vw;
-    margin: 0; */
+    /* Removed commented width and margin properties */
 }
 
-
-
+/* Navigation styles */
 nav {
     padding: 1rem;
     background-color: #222;
@@ -28,29 +27,23 @@ nav {
     align-items: flex-start;
 }
 
-/* .portfolio-nav-text {
-    color: pink;
-} */
-
 .left-nav-title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-size: 2rem; 
-    margin: 0;
 }
 
 .nav-left p {
     color: white; 
     font-size: 1rem; 
-    margin: 0;
 }
 
+/* Hamburger menu styles */
 .hamburger-menu {
     height: 50px;
     width: 50px;
     position: fixed; /* Changed to fixed */
-    top: 1rem; /* Adjust top position as needed */
-    right: 1rem; /* Adjust right position as needed */
+    top: 1rem; 
+    right: 1rem; 
     cursor: pointer;
     padding: 1rem;
     transition: background-color 0.3s ease;
@@ -97,13 +90,14 @@ nav {
     background-color: rgb(168, 215, 167);
 }
 
+/* Off-screen menu styles */
 .off-screen-menu {
     background-color: #222;
-    opacity: 90%;
+    opacity: 0.9;
     height: 100vh;
     width: 100%;
     max-width: 450px;
-    position: fixed; /* Changed to fixed */
+    position: fixed; 
     top: 0;
     right: -450px;
     display: flex;
@@ -112,8 +106,8 @@ nav {
     justify-content: center;
     text-align: center;
     font-size: 3rem;
-    transition: .3s ease;
-    z-index: 999; /* Ensures it stays above other content but below the menu */
+    transition: right .3s ease;
+    z-index: 999; 
 }
 
 .off-screen-menu.active {
@@ -122,8 +116,6 @@ nav {
 
 .off-screen-menu ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
     width: 100%;
     text-align: center;
 }
@@ -140,9 +132,10 @@ nav {
 }
 
 .off-screen-menu a:hover {
-    color:  rgb(168, 215, 167);
+    color: rgb(168, 215, 167);
 }
 
+/* Media queries */
 @media (max-width: 600px) {
     .off-screen-menu {
         width: 60%;
@@ -160,9 +153,11 @@ nav {
     }
 
     .off-screen-menu a {
-        font-size: 45px;
+        font-size: 40px;
     }
 }
+
+/* Scroll reveal styles */
 .scroll-reveal {
     padding: 2rem;
     transition: color 0.4s ease;
@@ -173,6 +168,19 @@ nav {
     color: rgb(168, 215, 167);
 }
 
+/* Section title styles */
+.section-title {
+    position: relative;
+    z-index: 2;
+    padding-top: 230px; 
+    font-size: 150px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+
+/* Section background styles */
 .rounded-shape-bg {
     opacity: 70%;
     height: 290px;
@@ -186,16 +194,7 @@ nav {
     z-index: 1;
 }
 
-.section-title {
-    position: relative;
-    z-index: 2;
-    padding-top: 230px; 
-    font-size: 150px;
-    text-align: center;
-    text-transform: capitalize;
-}
-
-
+/* Media queries for larger screens */
 @media (min-width: 1920px) {
     .section-title {
         font-size: 220px;
@@ -210,10 +209,10 @@ nav {
     }
 }
 
+/* Media queries for smaller screens */
 @media (max-width: 480px) {
     .section-title::before {
         content: "Hi!";
-        text-wrap: stable;
         text-transform: none;
         font-size: 85px;
         position: relative;
@@ -227,7 +226,7 @@ nav {
     }
 
     .rounded-shape-bg {
-        opacity: 70%;
+        opacity: 0.7;
         height: 130px;
         width: 79%;
         border-radius: 30px 30px 2px 2px;
@@ -240,7 +239,6 @@ nav {
         display: none;
     }
 }
-
 /*  gallery section */
 .gallery-section {
   display: flex;
@@ -495,7 +493,6 @@ img:hover {
   object-fit: cover;
   display: block;
 }
-
 
 /* HEX CODE IMAGES */
 .modal-gallery img[src*="8EAC7A.png"],

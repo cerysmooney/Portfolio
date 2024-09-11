@@ -1,137 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Portfolio Home</title>
+    <title>Cerys Mooney - Portfolio</title>
 </head>
+
 <body>
 
-    <!-- FIX SIZING ON MOBILE VIEW, MAKE IMAGES ON WORK SECTION SMALLER. MAKE CAPTIONS AVALIABLE ON MOBILE
-     REPLACE LOREM IPSUM TEXT
-     GET COLOUR SCHEME
-     FIX MOBILE "I'm CERYS STUFF" -->
-<div class="off-screen-menu">
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">My Work</a></li>
-        <li><a href="#portfolio">About Me</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</div>
-<nav>
-    <div class="nav-left">
-        <h1 class="left-nav-title">Cerys'</h1>
-        <p class="portfolio-nav-text">Portfolio</p>
+    <div class="off-screen-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">My Work</a></li>
+            <li><a href="#portfolio">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
-    <div class="hamburger-menu">
-        <div class="ham-bar bar-top"></div>
-        <div class="ham-bar bar-mid"></div>
-        <div class="ham-bar bar-bottom"></div>
-    </div>
-</nav>
 
-<a id="home"></a>
-<section class="scroll-reveal" id="scroll-section">
-    <div class="rounded-shape-bg">
-    </div>
-    <h1 class="section-title">CERYS MOONEY </h1>
-</section>
-
-<div class="spacer"></div>
-
-
-<a id="about"></a>
-
-
-<section class="gallery-section">
-    <div class="greycolour">
-        <div class="work-header">
-            <h3 id="work-title">My Recent Work</h3>
+    <nav>
+        <div class="nav-left">
+            <h1 class="left-nav-title">Cerys'</h1>
+            <p class="portfolio-nav-text">Portfolio</p>
         </div>
-    <div id="gallery">     
-        <a href="#modal" data-src="Imgs/buzzy.jpg" data-gallery="buzzy-gallery" data-text="Check out the project link here">
-            <div class="gallery-item">
-                <img src="Imgs/buzzy.jpg" alt="Buzzy">
-                <div class="overlay-text">BuzzyStride: A Mobile App.</div>
-            </div>
-        </a>
-        <a href="#modal" data-src="Imgs/kaiffa.jpg" data-gallery="kaiffa-gallery" data-text="Check out the project link here">
-            <div class="gallery-item">
-            <img src="Imgs/kaiffa.jpg" alt="Kaiffa">
-            <div class="overlay-text">Kaiffa Uganda: An Inspiring Website.</div>
-            </div>
-        </a>
-        <a href="#modal" data-src="Imgs/cham.jpg" data-gallery="cham-gallery" data-text="Check out the project link here">
-            <div class="gallery-item">
-            <img src="Imgs/testing_cover.png" alt="Cham">
-            <div class="overlay-text">The Colours of Noise: An Educational Website. </div>
+        <div class="hamburger-menu">
+            <div class="ham-bar bar-top"></div>
+            <div class="ham-bar bar-mid"></div>
+            <div class="ham-bar bar-bottom"></div>
         </div>
-        </a>
-        <a href="#modal" data-src="Imgs/washing.JPG" data-gallery="washing-gallery" data-text="Check out the project link here">
-            <div class="gallery-item">
-            <img src="Imgs/washing.JPG" alt="Washing">
-            <div class="overlay-text"> Washing on Sunshine: A Mockup Website.</div>
+    </nav>
+
+    <a id="home"></a>
+    <section class="scroll-reveal" id="scroll-section">
+        <div class="rounded-shape-bg"></div>
+        <h1 class="section-title">CERYS MOONEY</h1>
+    </section>
+
+    <div class="spacer"></div>
+
+    <a id="about"></a>
+    <section class="gallery-section">
+        <div class="greycolour">
+            <div class="work-header">
+                <h3 id="work-title">My Recent Work</h3>
             </div>
-        </a>
-    </div>
-</div>
-</section>
-
-<div id="modal" class="modal">
-    <span class="close">&times;</span>
-    <div class="modal-gallery">
-        <img class="modal-content" id="modal-img">
-    </div>
-    <div class="modal-text" id="modal-text"></div>
-</div>
-
-
-<a id="portfolio"></a>
-<section id="about" class="about-section">
-    <div class="about-info">
-        <div class="about-header">
-            <h3 id="about-title">About Me</h3>
-            <h3 id="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Cras venenatis euismod malesuada.</h3>
-            <p id="about-text"> View my CV <a href="Imgs/Resume.pdf" target="_blank">here!</a></p>
+            <div id="gallery">
+                <a href="#modal" data-src="Imgs/buzzy.jpg" data-gallery="buzzy-gallery" data-text="Check out the project link here">
+                    <div class="gallery-item">
+                        <img src="Imgs/buzzy.jpg" alt="BuzzyStride Mobile App">
+                        <div class="overlay-text">BuzzyStride: A Mobile App.</div>
+                    </div>
+                </a>
+                <a href="#modal" data-src="Imgs/kaiffa.jpg" data-gallery="kaiffa-gallery" data-text="Check out the project link here">
+                    <div class="gallery-item">
+                        <img src="Imgs/kaiffa.jpg" alt="Kaiffa Uganda Website">
+                        <div class="overlay-text">Kaiffa Uganda: An Inspiring Website.</div>
+                    </div>
+                </a>
+                <a href="#modal" data-src="Imgs/cham.jpg" data-gallery="cham-gallery" data-text="Check out the project link here">
+                    <div class="gallery-item">
+                        <img src="Imgs/testing_cover.png" alt="The Colours of Noise Educational Website">
+                        <div class="overlay-text">The Colours of Noise: An Educational Website.</div>
+                    </div>
+                </a>
+                <a href="#modal" data-src="Imgs/washing.JPG" data-gallery="washing-gallery" data-text="Check out the project link here" >
+                    <div class="gallery-item">
+                        <img src="Imgs/washing.JPG" alt="Washing on Sunshine Mockup Website">
+                        <div class="overlay-text">Washing on Sunshine: A Mockup Website.</div>
+                    </div>
+                </a>
+            </div>
         </div>
-        <!-- <div class="about-image">
-            <img src="Imgs/profile_pic.jpeg" alt="About Me">
-        </div> -->
-    </div>
-</section>
+    </section>
 
-      <a id="contact"></a>
-      <div class="contact-info">
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-gallery">
+            <img class="modal-content" id="modal-img" alt="Modal Image">
+        </div>
+        <div class="modal-text" id="modal-text"></div>
+    </div>
+
+    <a id="portfolio"></a>
+    <section id="about" class="about-section">
+        <div class="about-info">
+            <div class="about-header">
+                <h3 id="about-title">About Me</h3>
+                <p id="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Cras venenatis euismod malesuada.</p>
+                <p id="about-cv">View my CV <a href="Imgs/Resume.pdf" target="_blank">here!</a></p>
+            </div>
+            <!-- <div class="about-image">
+                <img src="Imgs/profile_pic.jpeg" alt="About Me">
+            </div> -->
+        </div>
+    </section>
+
+    <a id="contact"></a>
+    <section class="contact-info">
         <div class="contact-header">
-          <h3 id="co-title">Feel Free to Reach Out</h3>
-          <h3 id="co-text"> I'm open to new opportunities! </h1>
+            <h3 id="co-title">Feel Free to Reach Out</h3>
+            <h3 id="co-text">I'm open to new opportunities!</h3>
         </div>
-        <h3>Email me at </h3>
-        <a href="mailto:cerysmooney2021@gmail.com"><p>cerysmooney2021@gmail.com</p></a>
-        <h3>Find me on </h3>
+        <p>Email me at <a href="mailto:cerysmooney2021@gmail.com">cerysmooney2021@gmail.com</a></p>
+        <p>Find me on:</p>
         <div class="contact-links">
-          <a href="https://www.linkedin.com/in/cerys-mooney-57a4031a9/"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/cerysmooney"><i class="fab fa-github"></i></a>
-          <a href="https://www.youtube.com/@cerysmooney3223"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/in/cerys-mooney-57a4031a9/" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/cerysmooney" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/@cerysmooney3223" aria-label="YouTube Channel"><i class="fab fa-youtube"></i></a>
         </div>
-      </div>
-      </div>
-  </section>
+    </section>
 
-    <!-- <h2>Section 3</h2>
-    <p>More content here to make the page scrollable...</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
-</section>
-
-<section>
-    <h2>Section 4</h2>
-    <p>More content here to make the page scrollable...</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
-</section> -->
-
-<script src="./app.js"></script>
+    <script src="./app.js"></script>
 </body>
+
 </html>
