@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -169,10 +169,11 @@ nav {
 
 
 .section-title {
+    font-family: 'Oswald', sans-serif;
     position: relative;
     z-index: 2;
-    padding-top: 230px; 
-    font-size: 150px;
+    padding-top: 190px; 
+    font-size: 180px;
     text-align: center;
     text-transform: capitalize;
 }
@@ -267,6 +268,7 @@ padding-bottom: 300px;
 
 
 #work-title {
+    font-family: 'Oswald', sans-serif;
     font-size: 6rem;
     font-weight: 700;
     color: rgb(168, 215, 167);
@@ -283,7 +285,7 @@ padding-bottom: 300px;
 
 
 .work-header {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Oswald', sans-serif;
     margin: 10rem 10rem 3rem 10rem;
     text-align: center;
     align-items: center;
@@ -943,11 +945,13 @@ img:hover {
   }
   
   #about-title {
+    font-family: 'Oswald', sans-serif;
       font-size: 6rem;
       font-weight: 700;
       color: rgb(168, 215, 167);
       text-transform: uppercase;
       margin-bottom: 20px;
+      margin-top: -80px;
       align-items: left;
       text-align: center;
       transition: transform 0.3s ease-in-out;
@@ -1054,13 +1058,14 @@ img:hover {
 }
 
 .contact-header {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Oswald', sans-serif;
     margin: 8rem 4rem 2rem 4rem; 
     text-align: left;
     align-items: flex-start;
 }
 
 #co-title {
+    font-family: 'Oswald', sans-serif;
     font-size: 2.5rem; 
     font-weight: 700;
     color: rgb(168, 215, 167);
@@ -1070,6 +1075,7 @@ img:hover {
 }
 
 #co-text {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem; 
     color: white;
     padding-bottom: 2rem; 
@@ -1086,13 +1092,13 @@ img:hover {
 }
 
 .contact-info h3 {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.25rem; 
     color: rgb(168, 215, 167);
 }
 
 .contact-info a {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     color: #666;
     font-size: 1.25rem;
