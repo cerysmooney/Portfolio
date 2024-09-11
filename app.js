@@ -112,6 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'Imgs/Washing/events.JPG',
             'Imgs/Washing/function.JPG',
         ]
+        
     };
 
     document.querySelectorAll('#gallery a').forEach(item => {
