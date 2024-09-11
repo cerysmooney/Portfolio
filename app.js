@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+
     const hamburgerMenu = document.querySelector('.hamburger-menu');
     const offScreenMenu = document.querySelector('.off-screen-menu');
     const scrollSections = document.querySelectorAll('.scroll-reveal');
@@ -7,60 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalImg = document.getElementById('modal-img');
     const modalText = document.getElementById('modal-text'); 
     const closeBtn = document.querySelector('.close'); 
-  
-    modal.style.display = 'none';
-    
-    hamburgerMenu.addEventListener('click', function() {
-        hamburgerMenu.classList.toggle('active');
-        offScreenMenu.classList.toggle('active');
-    });
-
-    window.addEventListener('scroll', function() {
-        scrollSections.forEach(section => {
-            const sectionTop = section.getBoundingClientRect().top;
-            const sectionBottom = section.getBoundingClientRect().bottom;
-
-            if (sectionTop < window.innerHeight && sectionBottom > 0) {
-                section.classList.add('scrolled');
-            } else {
-                section.classList.remove('scrolled');
-            }
-        });
-    });
-
-    document.querySelectorAll('#gallery a').forEach(item => {
-        item.addEventListener('click', function(e) {
-            e.preventDefault();
-            const imgSrc = this.getAttribute('data-src');
-            const text = this.getAttribute('data-text'); 
-
-            modalImg.src = imgSrc;
-            modalText.textContent = text; 
-            modal.style.display = 'block';
-            document.body.classList.add('modal-open');
-        });
-    });
-
-    closeBtn.addEventListener('click', function() {
-        modal.style.display = 'none';
-        document.body.classList.remove('modal-open'); 
-    });
-
-    window.addEventListener('click', function(event) {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-            document.body.classList.remove('modal-open'); 
-        }
-    });
-});
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    const modal = document.getElementById('modal');
     const modalGallery = document.querySelector('.modal-gallery');
-    const modalText = document.getElementById('modal-text');
-    const closeBtn = document.querySelector('.close');
-
+    
     const galleries = {
         'buzzy-gallery': [
             'Imgs/BuzzyStride/login_buzzy.png',
@@ -81,13 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
             'Imgs/Kaiffa/egg.png',
             'Imgs/Kaiffa/Grey Blue.png',
             'Imgs/Kaiffa/Deep Blue.png',
-            // 'Imgs/Kaiffa/Group 54.png',
             'Imgs/Kaiffa/Group 55.png',
             'Imgs/Kaiffa/Frame 58.png',
-             'Imgs/Kaiffa/Group 49.png',
+            'Imgs/Kaiffa/Group 49.png',
             'Imgs/Kaiffa/Group 47.png',
-    
-
         ],
         'cham-gallery': [
             "Imgs/Noise/greysquare.png",
@@ -99,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
             'Imgs/Noise/vls.JPG',
             'Imgs/Noise/psd.JPG',
             'Imgs/Noise/example.JPG'
-         
         ],
         'washing-gallery': [
             'Imgs/Washing/purplesquare.png',
@@ -112,8 +57,30 @@ document.addEventListener('DOMContentLoaded', function() {
             'Imgs/Washing/events.JPG',
             'Imgs/Washing/function.JPG',
         ]
-        
     };
+
+
+    modal.style.display = 'none';
+    
+    // Toggle off-screen menu
+    hamburgerMenu.addEventListener('click', function() {
+        hamburgerMenu.classList.toggle('active');
+        offScreenMenu.classList.toggle('active');
+    });
+
+    // Scroll reveal sections
+    window.addEventListener('scroll', function() {
+        scrollSections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            const sectionBottom = section.getBoundingClientRect().bottom;
+
+            if (sectionTop < window.innerHeight && sectionBottom > 0) {
+                section.classList.add('scrolled');
+            } else {
+                section.classList.remove('scrolled');
+            }
+        });
+    });
 
     document.querySelectorAll('#gallery a').forEach(item => {
         item.addEventListener('click', function(e) {
@@ -121,14 +88,17 @@ document.addEventListener('DOMContentLoaded', function() {
             const galleryKey = this.getAttribute('data-gallery');
             const text = this.getAttribute('data-text');
 
+       
             modalGallery.innerHTML = ''; 
-            galleries[galleryKey].forEach(src => {
-                const img = document.createElement('img');
-                img.src = src;
-                modalGallery.appendChild(img);
-            });
+            if (galleries[galleryKey]) {
+                galleries[galleryKey].forEach(src => {
+                    const img = document.createElement('img');
+                    img.src = src;
+                    modalGallery.appendChild(img);
+                });
+            }
 
-            modalText.textContent = text;
+            modalText.innerHTML = text;  
             modal.style.display = 'block';
             document.body.classList.add('modal-open');
         });
