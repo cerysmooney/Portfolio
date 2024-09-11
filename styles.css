@@ -212,7 +212,7 @@ nav {
 
 @media (max-width: 480px) {
     .section-title::before {
-        content: "Welcome!";
+        content: "Hi!";
         text-wrap: stable;
         text-transform: none;
         font-size: 85px;
