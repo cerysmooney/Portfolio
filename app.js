@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'Imgs/Noise/waveform.JPG',
             'Imgs/Noise/vls.JPG',
             'Imgs/Noise/psd.JPG',
-            // 'Imgs/Noise/example.JPG'
+            'Imgs/Noise/example.JPG'
          
         ],
         'washing-gallery': [
