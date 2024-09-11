@@ -984,12 +984,11 @@ img:hover {
   }
   
   .about-image img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      cursor: auto;
-  }
-  
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: auto;
+}
   @media (max-width: 1200px) {
       .about-header {
           margin: 8rem 5rem;
