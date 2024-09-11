@@ -765,21 +765,28 @@ img:hover {
 }
 
 @media (min-width: 1920px) {
-    .modal-gallery {
-      gap: 15px; 
-      justify-content: center; 
+    .gallery-item {
+      width: calc(33.33% - 20px); 
+      max-width: 400px;
     }
   
     .modal-gallery img {
-      flex-basis: calc(25% - 20px); 
-      max-width: 400px; 
-      height: auto;
+      width: calc(33.33% - 20px); 
+      max-width: 500px;
     }
   
-    .gallery-item {
-      max-width: 400px; 
-      width: 100%;
-      margin-bottom: 20px;
+    .modal-gallery img[src*="8EAC7A.png"],
+    .modal-gallery img[src*="EE9B01.png"],
+    .modal-gallery img[src*="EE8434.png"],
+    .modal-gallery img[src*="da6a00.png"],
+    .modal-gallery img[src*="597393.png"] {
+      width: 150px;
+      height: 100px;
+      margin-right: 10px;
+      border-radius: 5px;
+      object-fit: cover;
+      margin-top: 50px;
+      flex: 0 0 auto; 
     }
   }
 
