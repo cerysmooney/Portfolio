@@ -78,33 +78,31 @@ nav {
     visibility: visible;
 }
 
-
 @media (max-width: 600px) {
     #backToTopButton {
-        width: 40px;
-        height: 40px;
-        bottom: 20px;
+        width: 45px;
+        height: 45px;
+        bottom: 30px; 
         right: 20px;
     }
     #backToTopButton::after {
-        width: 28px; 
-        height: 28px;
-        margin-top: 6px;
+        width: 32px; 
+        height: 32px;
+        margin-top: 7px;
     }
 }
 
-
 @media (max-width: 400px) {
     #backToTopButton {
-        width: 30px;
-        height: 30px;
-        bottom: 15px;
+        width: 35px;
+        height: 35px;
+        bottom: 25px; 
         right: 15px;
     }
     #backToTopButton::after {
-        width: 20px; 
-        height: 20px;
-        margin-top: 5px;
+        width: 25px; 
+        height: 25px;
+        margin-top: 6px;
     }
 }
 
