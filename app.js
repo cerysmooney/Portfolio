@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', function() {
           }
       });
   
-     
       if (scrollTop === 0) {
           scrollSections.forEach(section => {
               section.classList.remove('scrolled');
