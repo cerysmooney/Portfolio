@@ -446,7 +446,19 @@ img:hover {
       max-width: 600px; 
     }
   }
+
   
+  #youtube-text {
+    /* font-family: Arial, Helvetica, sans-serif; */
+      font-size: 2rem;
+      color: rgb(255, 255, 255);
+      padding-top: 90px;
+      padding-bottom: 2rem;
+      align-items: center;
+      text-align: center;
+      text-transform: none;
+      text-wrap: balance;
+  }
 
 .modal-gallery {
   display: flex;
