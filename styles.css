@@ -460,6 +460,22 @@ img:hover {
       text-wrap: balance;
   }
 
+
+  @media (max-width: 768px) {
+    #youtube-text {
+        font-size: 1.5rem; 
+        padding-bottom: 1.5rem; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    #youtube-text {
+        font-size: 1.2rem; 
+        padding-bottom: 1rem;
+    }
+}
+
 .modal-gallery {
   display: flex;
   flex-wrap: wrap;
