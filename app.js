@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const observer = new IntersectionObserver(revealWorkInfo, {
-      threshold: 0.2  
+      threshold: 0.1
     });
   
     observer.observe(workInfo);
@@ -190,3 +190,19 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(contactInfo);
   });
 
+  document.addEventListener('DOMContentLoaded', function() {
+    const backToTopButton = document.getElementById('backToTopButton');
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 350) {
+            backToTopButton.classList.add('show'); 
+        } else {
+            backToTopButton.classList.remove('show'); 
+        }
+    });
+
+    backToTopButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+});

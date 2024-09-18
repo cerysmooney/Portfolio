@@ -37,6 +37,77 @@ nav {
     font-size: 1rem; 
 }
 
+/* back to top button from diss website! thank you me! */
+#backToTopButton {
+    display: inline-block;
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#backToTopButton::after {
+    content: ""; 
+    width: 34px; 
+    height: 34px; 
+    background-image: url('Imgs/angle-up-solid.svg');
+    background-size: cover; 
+    background-position: center; 
+    display: inline-block;
+    margin-top: 8px; 
+  }
+  
+  
+  #backToTopButton:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #backToTopButton:active {
+    background-color: #555;
+  }
+  #backToTopButton.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media (max-width: 600px) {
+    #backToTopButton {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 20px;
+    }
+    #backToTopButton::after {
+        width: 28px; 
+        height: 28px;
+        margin-top: 6px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    #backToTopButton {
+        width: 30px;
+        height: 30px;
+        bottom: 15px;
+        right: 15px;
+    }
+    #backToTopButton::after {
+        width: 20px; 
+        height: 20px;
+        margin-top: 5px;
+    }
+}
+
 
 /* hamburg */
 .hamburger-menu {
