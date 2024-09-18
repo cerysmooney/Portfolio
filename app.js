@@ -181,3 +181,4 @@ document.addEventListener("DOMContentLoaded", () => {
   
     observer.observe(contactInfo);
   });
+
