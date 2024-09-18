@@ -15,7 +15,7 @@ body {
 
 nav {
     padding: 1rem;
-    background-color: #222;
+    background-color: #222;  
     display: flex;
     justify-content: space-between; 
     align-items: center;
