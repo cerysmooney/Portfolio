@@ -178,7 +178,13 @@ nav {
     font-size: 180px;
     text-align: center;
     text-transform: capitalize;
+    transition: transform 0.3s ease-in-out;
 }
+
+.section-title:hover {
+    transform: scale(1.03); 
+  }
+
 
 
 

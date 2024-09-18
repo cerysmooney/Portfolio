@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const observer = new IntersectionObserver(revealAboutInfo, {
-      threshold: 0.4
+      threshold: 0.3
     });
   
     observer.observe(aboutFade);
@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const observer = new IntersectionObserver(revealWorkInfo, {
-      threshold: 0.3  
+      threshold: 0.2  
     });
   
     observer.observe(workInfo);
