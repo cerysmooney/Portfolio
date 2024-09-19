@@ -659,7 +659,6 @@ img {
 }
 
 /* KAIFFA CONTENT */
-/* KAIFFA CONTENT - Adjusted for Buzzy Style */
 .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
 .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
 .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
@@ -902,11 +901,32 @@ img {
 .modal-gallery img[src*="Imgs/Washing/function.JPG"],
 .modal-gallery img[src*="Imgs/Washing/now.JPG"],
 .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
-  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: calc(1 + var(--f));
   object-fit: cover;
   margin: 50px 10px;
-  width: 100%; 
-  height: auto;
+}
+
+@media (min-width: 600px) {
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/now.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/now.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    max-width: 330px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -915,7 +935,8 @@ img {
   .modal-gallery img[src*="Imgs/Washing/function.JPG"],
   .modal-gallery img[src*="Imgs/Washing/now.JPG"],
   .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
-      width: 80%;
+    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -925,7 +946,7 @@ img {
   .modal-gallery img[src*="Imgs/Washing/function.JPG"],
   .modal-gallery img[src*="Imgs/Washing/now.JPG"],
   .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
-      width: 70%;
+    width: 70%;
   }
 }
 
@@ -935,9 +956,31 @@ img {
   .modal-gallery img[src*="Imgs/Washing/function.JPG"],
   .modal-gallery img[src*="Imgs/Washing/now.JPG"],
   .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
-      width: 60%;
+    width: 70%;
   }
 }
+
+@media (min-width: 1600px) {
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/now.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    max-width: 450px; 
+  }
+}
+
+@media (min-width: 1900px) {
+  .modal-gallery img[src*="Imgs/Washing/cafe.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/events.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/function.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/now.JPG"],
+  .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
+    max-width: 500px; 
+  }
+}
+
+
 
 /* WASHING COLOR SCHEME */
 .modal-gallery img[src*="Imgs/Washing/purplesquare.png"],
@@ -946,11 +989,11 @@ img {
 .modal-gallery img[src*="Imgs/Washing/lgreen.png"],
 .modal-gallery img[src*="Imgs/Washing/lgrey.png"] {
   display: inline-block;
-  width: 200px; 
-  height: 150px; 
+  width: 200px;
+  height: 150px;
   margin-right: 10px;
-  border-radius: 5px; 
-  object-fit: cover; 
+  border-radius: 5px;
+  object-fit: cover;
   margin-top: 50px;
 }
 
@@ -960,8 +1003,8 @@ img {
   .modal-gallery img[src*="Imgs/Washing/lbrownsquare.png"],
   .modal-gallery img[src*="Imgs/Washing/lgreen.png"],
   .modal-gallery img[src*="Imgs/Washing/lgrey.png"] {
-      width: 100px;
-      height: 50px;
+    width: 100px;
+    height: 50px;
   }
 }
 
@@ -971,8 +1014,8 @@ img {
   .modal-gallery img[src*="Imgs/Washing/lbrownsquare.png"],
   .modal-gallery img[src*="Imgs/Washing/lgreen.png"],
   .modal-gallery img[src*="Imgs/Washing/lgrey.png"] {
-      width: 80px;
-      height: 40px;
+    width: 80px;
+    height: 40px;
   }
 }
 
