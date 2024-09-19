@@ -449,81 +449,6 @@ padding-bottom: 300px;
     }
 }
 
-#gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-}
-
-img {
-    --f: .1;
-    --r: 10px;
-    --_f: calc(100%*var(--f)/(1 + var(--f)));
-    --_a: calc(90deg*var(--f));
-    width: 100%;
-    max-width: 300px;
-    aspect-ratio: calc(1 + var(--f));
-    object-fit: cover;
-    clip-path: inset(0 var(--_f) 0 0 round var(--r));
-    transform: perspective(400px) var(--_t, rotateY(var(--_a)));
-    transition: .5s;
-    cursor: pointer;
-  }
-  
-  img:hover {
-    clip-path: inset(0 0 0 var(--_f) round var(--r));
-    --_t: translateX(calc(-1 * var(--_f))) rotateY(calc(-1 * var(--_a)));
-  }
-  
-
-  @media (max-width: 320px) {
-    img {
-      max-width: 100px;
-      margin-bottom: 15px; 
-    }
-  }
-  
-  @media (max-width: 600px) {
-    img {
-      max-width: 100px;
-      margin-bottom: 15px; 
-    }
-  }
-  
-  @media (max-width: 768px) {
-    img {
-      max-width: 150px;
-      margin-bottom: 20px; 
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    img {
-      width: 300px;
-      margin-bottom: 0; 
-    }
-  }
-  
-  @media (min-width: 1400px) {
-    img {
-      max-width: 400px;
-    }
-  }
-  
-  @media (min-width: 1600px) {
-    img {
-      max-width: 500px;
-    }
-  }
-  
-  @media (min-width: 1800px) {
-    img {
-      max-width: 600px;
-    }
-
-  }
-
   
   #youtube-text {
     /* font-family: Arial, Helvetica, sans-serif; */
@@ -562,6 +487,82 @@ img {
         padding-bottom: 1rem;
     }
 }
+
+  
+  img {
+      --f: .1;
+      --r: 10px;
+      --_f: calc(100%*var(--f)/(1 + var(--f)));
+      --_a: calc(90deg*var(--f));
+      width: 100%;
+      max-width: 300px;
+      aspect-ratio: calc(1 + var(--f));
+      object-fit: cover;
+      clip-path: inset(0 var(--_f) 0 0 round var(--r));
+      transform: perspective(400px) var(--_t, rotateY(var(--_a)));
+      transition: .5s;
+      cursor: pointer;
+    }
+    
+    img:hover {
+      clip-path: inset(0 0 0 var(--_f) round var(--r));
+      --_t: translateX(calc(-1 * var(--_f))) rotateY(calc(-1 * var(--_a)));
+    }
+    
+  
+    @media (max-width: 320px) {
+      img {
+        max-width: 100px;
+        margin-bottom: 15px; 
+      }
+    }
+    
+    @media (max-width: 600px) {
+      img {
+        max-width: 100px;
+        margin-bottom: 15px; 
+      }
+    }
+    
+    @media (max-width: 768px) {
+      img {
+        max-width: 150px;
+        margin-bottom: 20px; 
+      }
+    }
+    
+    @media (min-width: 1200px) {
+      img {
+        width: 300px;
+        margin-bottom: 0; 
+      }
+    }
+    
+    @media (min-width: 1400px) {
+      img {
+        max-width: 400px;
+      }
+    }
+    
+    @media (min-width: 1600px) {
+      img {
+        max-width: 500px;
+      }
+    }
+    
+    @media (min-width: 1800px) {
+      img {
+        max-width: 600px;
+      }
+  
+    }
+  
+ #gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+      }
 
 .modal-gallery {
   display: flex;
