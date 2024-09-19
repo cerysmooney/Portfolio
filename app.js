@@ -79,18 +79,15 @@ document.addEventListener('DOMContentLoaded', function() {
   // Scroll reveal sections
   window.addEventListener('scroll', function() {
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
-
       scrollSections.forEach(section => {
           const sectionTop = section.getBoundingClientRect().top;
           const sectionBottom = section.getBoundingClientRect().bottom;
-
           if (sectionTop < window.innerHeight && sectionBottom > 0) {
               section.classList.add('scrolled');
           } else {
               section.classList.remove('scrolled');
           }
       });
-
       if (scrollTop === 0) {
           scrollSections.forEach(section => {
               section.classList.remove('scrolled');
