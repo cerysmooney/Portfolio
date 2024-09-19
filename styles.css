@@ -477,7 +477,7 @@ img {
   }
   
   
-  @media (max-width: 320px) {
+  /* @media (max-width: 320px) {
     img {
       max-width: 100px;
       margin-bottom: 15px; 
@@ -521,7 +521,7 @@ img {
     img {
       max-width: 600px;
     }
-  }
+  } */
 
   
   #youtube-text {
