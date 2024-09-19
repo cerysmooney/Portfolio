@@ -629,13 +629,13 @@ img {
 .modal-gallery img[src*="EE8434.png"],
 .modal-gallery img[src*="da6a00.png"],
 .modal-gallery img[src*="597393.png"] {
-  display: inline-block;
-  width: 150px; 
-  height: 100px; 
-  margin-right: 10px;
-  border-radius: 5px; 
-  object-fit: cover; 
-  margin-top: 50px;
+display: inline-block;
+width: 200px; 
+height: 150px; 
+margin-right: 10px;
+border-radius: 5px; 
+object-fit: cover; 
+margin-top: 50px;
 }
 
 @media (max-width: 600px) {
@@ -644,7 +644,8 @@ img {
   .modal-gallery img[src*="EE8434.png"],
   .modal-gallery img[src*="da6a00.png"],
   .modal-gallery img[src*="597393.png"] {
-      width: 60px;  
+    width: 100px;
+      height: 50px;
   }
 }
 
@@ -654,7 +655,8 @@ img {
   .modal-gallery img[src*="EE8434.png"],
   .modal-gallery img[src*="da6a00.png"],
   .modal-gallery img[src*="597393.png"] {
-      width: 50px;  
+    width: 80px;
+    height: 40px;
   }
 }
 
