@@ -320,7 +320,7 @@ nav {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #444;
+  background-color: #333;
 }
 
 .gallery-section {
@@ -1134,7 +1134,7 @@ img {
       display: flex;
       flex-direction: column;
       position: relative;
-      background-color: #444;
+      background-color: #333;
       padding: 4rem 2rem;
       background-size: cover;
   }
