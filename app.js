@@ -2,13 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const hamburgerMenu = document.querySelector('.hamburger-menu');
   const offScreenMenu = document.querySelector('.off-screen-menu');
   const scrollSections = document.querySelectorAll('.scroll-reveal');
-  
   const modal = document.getElementById('modal');
   const modalImg = document.getElementById('modal-img');
   const modalText = document.getElementById('modal-text'); 
   const closeBtn = document.querySelector('.close'); 
   const modalGallery = document.querySelector('.modal-gallery');
-  
   const galleries = {
       'buzzy-gallery': [
           'Imgs/BuzzyStride/login_buzzy.png',
@@ -59,14 +57,26 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   modal.style.display = 'none';
-  
   // Toggle off-screen menu
   hamburgerMenu.addEventListener('click', function() {
       hamburgerMenu.classList.toggle('active');
       offScreenMenu.classList.toggle('active');
   });
 
- 
+  const anchorLinks = offScreenMenu.querySelectorAll('a');
+  anchorLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+          e.preventDefault(); 
+          const targetId = this.getAttribute('href'); 
+          const targetSection = document.querySelector(targetId);
+          if (targetSection) {
+              targetSection.scrollIntoView({ behavior: 'smooth' });
+          }
+          hamburgerMenu.classList.remove('active');
+          offScreenMenu.classList.remove('active');
+      });
+  });
+
   document.addEventListener('click', function(event) {
       if (!hamburgerMenu.contains(event.target) && !offScreenMenu.contains(event.target)) {
           if (offScreenMenu.classList.contains('active')) {
