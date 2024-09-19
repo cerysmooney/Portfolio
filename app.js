@@ -12,50 +12,57 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const galleries = {
         'buzzy-gallery': [
+          // 'Imgs/BuzzyStride/8EAC7A.png',
+          // 'Imgs/BuzzyStride/EE9B01.png',
+          // 'Imgs/BuzzyStride/EE8434.png',
+          // 'Imgs/BuzzyStride/da6a00.png',
+          // 'Imgs/BuzzyStride/597393.png',
             'Imgs/BuzzyStride/login_buzzy.png',
             'Imgs/BuzzyStride/buzzy_home.png',
             'Imgs/BuzzyStride/buzzy_ava_routes.png',
             'Imgs/BuzzyStride/buzzy_busy_route.png',
             'Imgs/BuzzyStride/buzzy_map.png',
             'Imgs/BuzzyStride/buzzy_built.png',
-            // 'Imgs/BuzzyStride/8EAC7A.png',
-            // 'Imgs/BuzzyStride/EE9B01.png',
-            // 'Imgs/BuzzyStride/EE8434.png',
-            // 'Imgs/BuzzyStride/da6a00.png',
-            // 'Imgs/BuzzyStride/597393.png'
+            'Imgs/BuzzyStride/8EAC7A.png',
+            'Imgs/BuzzyStride/EE9B01.png',
+            'Imgs/BuzzyStride/EE8434.png',
+            'Imgs/BuzzyStride/da6a00.png',
+            'Imgs/BuzzyStride/597393.png'
         ],
         'kaiffa-gallery': [
-            // 'Imgs/Kaiffa/white.png',
-            // 'Imgs/Kaiffa/Almost White.png',
-            // 'Imgs/Kaiffa/egg.png',
-            // 'Imgs/Kaiffa/Grey Blue.png',
-            // 'Imgs/Kaiffa/Deep Blue.png',
             'Imgs/Kaiffa/Group 55.png',
             'Imgs/Kaiffa/Frame 58.png',
             'Imgs/Kaiffa/Group 49.png',
             'Imgs/Kaiffa/Group 47.png',
+            'Imgs/Kaiffa/white.png',
+            'Imgs/Kaiffa/Almost White.png',
+            'Imgs/Kaiffa/egg.png',
+            'Imgs/Kaiffa/Grey Blue.png',
+            'Imgs/Kaiffa/Deep Blue.png',
         ],
         'cham-gallery': [
-            // "Imgs/Noise/greysquare.png",
-            // "Imgs/Noise/greensquare.png",
-            // "Imgs/Noise/purplesquare.png",
-            // "Imgs/Noise/offwhitesquare.png",
-            // 'Imgs/Kaiffa/Almost White.png',
+          
             'Imgs/Noise/waveform.JPG',
             'Imgs/Noise/vls.JPG',
             'Imgs/Noise/psd.JPG',
-            'Imgs/Noise/example.JPG'
+            'Imgs/Noise/example.JPG',
+            "Imgs/Noise/greysquare.png",
+            "Imgs/Noise/greensquare.png",
+            "Imgs/Noise/purplesquare.png",
+            "Imgs/Noise/offwhitesquare.png",
+            'Imgs/Kaiffa/Almost White.png',
+            
         ],
         'washing-gallery': [
-            // 'Imgs/Washing/purplesquare.png',
-            // 'Imgs/Washing/dgreensquare.png',
-            // 'Imgs/Washing/lbrownsquare.png',
-            // 'Imgs/Washing/lgreen.png',
-            // 'Imgs/Washing/lgrey.png',
             'Imgs/Washing/contact.JPG',
             'Imgs/Washing/cafe.JPG',
             'Imgs/Washing/events.JPG',
             'Imgs/Washing/function.JPG',
+            'Imgs/Washing/purplesquare.png',
+            'Imgs/Washing/dgreensquare.png',
+            'Imgs/Washing/lbrownsquare.png',
+            'Imgs/Washing/lgreen.png',
+            'Imgs/Washing/lgrey.png',
         ]
     };
 
