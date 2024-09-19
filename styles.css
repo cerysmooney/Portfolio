@@ -325,7 +325,7 @@ nav {
 
 .gallery-section {
     padding: 20px;  
-padding-bottom: 300px;
+/* padding-bottom: 300px; */
   }
 
 
@@ -1031,6 +1031,7 @@ margin-top: 50px;
   opacity: 0;
   transition: opacity 0.3s ease;
   width: 100%; 
+  font-size: 1.2em;
 }
 
 .gallery-item:hover .overlay-text {
