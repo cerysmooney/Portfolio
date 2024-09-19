@@ -667,13 +667,13 @@ img {
 .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
   position: relative;
   width: 100%;
-  max-width: 300px; /* Matches Buzzy style */
+  max-width: 300px; 
   aspect-ratio: calc(1 + var(--f));
   object-fit: cover;
   margin: 50px 10px;
 }
 
-/* Larger screen adjustments */
+
 @media (min-width: 600px) {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
@@ -694,7 +694,7 @@ img {
   }
 }
 
-/* Responsive adjustments for smaller screens */
+
 @media (max-width: 768px) {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
@@ -722,7 +722,28 @@ img {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-    width: 60%;
+    width: 70%;
+  }
+}
+
+
+@media (min-width: 1600px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    max-width: 450px; 
+  }
+}
+
+@media (min-width: 1900px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    max-width: 500px; 
   }
 }
 /* KAIFFA COLOR SCHEME */
