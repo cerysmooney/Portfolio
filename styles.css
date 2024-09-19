@@ -659,57 +659,50 @@ img {
 }
 
 /* KAIFFA CONTENT */
+/* KAIFFA CONTENT - Adjusted for Buzzy Style */
 .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
 .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
 .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
 .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
 .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 300px; /* Matches Buzzy style */
+  aspect-ratio: calc(1 + var(--f));
   object-fit: cover;
   margin: 50px 10px;
-  width: 100%; 
-  height: auto;
 }
 
-
+/* Larger screen adjustments */
+@media (min-width: 600px) {
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    max-width: 400px;
+  }
+}
 
 @media (min-width: 1200px) {
-    .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-        width: 90%; 
-    }
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
+  .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
+    max-width: 330px;
   }
-  
+}
 
-  @media (min-width: 1900px) {
-    .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-        width: 100%; 
-    }
-    
-    .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/egg.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Grey Blue.png"],
-    .modal-gallery img[src*="Imgs/Kaiffa/Deep Blue.png"] {
-        width: 300px; 
-        height: 225px;
-    }
-  }
-
+/* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 54.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Frame 58.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-      width: 80%; 
+    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -719,7 +712,7 @@ img {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-      width: 70%; 
+    width: 70%;
   }
 }
 
@@ -729,10 +722,9 @@ img {
   .modal-gallery img[src*="Imgs/Kaiffa/Group 55.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 49.png"],
   .modal-gallery img[src*="Imgs/Kaiffa/Group 47.png"] {
-      width: 60%;
+    width: 60%;
   }
 }
-
 /* KAIFFA COLOR SCHEME */
 .modal-gallery img[src*="Imgs/Kaiffa/white.png"],
 .modal-gallery img[src*="Imgs/Kaiffa/Almost White.png"],
