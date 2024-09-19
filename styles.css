@@ -903,7 +903,7 @@ img {
 .modal-gallery img[src*="Imgs/Washing/contact.JPG"] {
   position: relative;
   width: 100%;
-  max-width: 300px;
+  max-width: 300px; 
   aspect-ratio: calc(1 + var(--f));
   object-fit: cover;
   margin: 50px 10px;
@@ -979,7 +979,6 @@ img {
     max-width: 500px; 
   }
 }
-
 
 
 /* WASHING COLOR SCHEME */
