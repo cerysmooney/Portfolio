@@ -287,7 +287,7 @@ nav {
 
 @media (max-width: 480px) {
     .section-title::before {
-        content: "Welcome to Cerys' Portfolio!";
+        content: "Welcome to Cerys's Portfolio!";
         text-transform: none;
         font-size: 62px;
         position: relative;
@@ -301,17 +301,17 @@ nav {
     }
 
     .rounded-shape-bg {
-        opacity: 0.2;
-        height: 100px; 
-        width: 90%; 
-        border-radius: 20px; 
+        opacity: 0.7;
+        height: 130px;
+        width: 79%;
+        border-radius: 30px 30px 2px 2px;
         background: rgb(133, 133, 133);
         position: absolute;
         top: 200px; 
         left: 50%; 
         transform: translateX(-50%); 
         z-index: 1;
-        display: block; 
+        display: none;
     }
 }
 /*  gallery section */
@@ -476,8 +476,8 @@ img {
     --_t: translateX(calc(-1 * var(--_f))) rotateY(calc(-1 * var(--_a)));
   }
   
-  
-  /* @media (max-width: 320px) {
+
+  @media (max-width: 320px) {
     img {
       max-width: 100px;
       margin-bottom: 15px; 
@@ -521,7 +521,8 @@ img {
     img {
       max-width: 600px;
     }
-  } */
+
+  }
 
   
   #youtube-text {
@@ -538,8 +539,8 @@ img {
 
   .hover-link {
     text-decoration: underline;
-    color: white; /* Set a default color */
-    transition: color 0.3s ease; /* Ensure the color transition happens */
+    color: white; 
+    transition: color 0.3s ease; 
   }
   
   .hover-link:hover {
@@ -1096,9 +1097,9 @@ img {
       font-size: 2rem;
       color: white;
       padding-bottom: 2rem;
-      /* align-items: center;
+      align-items: center;
       text-align: center;
-      text-transform: none; */
+      text-transform: none;
       text-wrap: balance;
   }
 
